@@ -3,8 +3,8 @@ CarrierWave.configure do |config|
     :provider              => 'AWS',
     :aws_access_key_id     => 'AKIAISGDFFMT3SD3BKXA',
     :aws_secret_access_key => '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',
-    :region                => 'eu-west1',
-    # :host                  => 'spicerack-preview.s3-eu-west-1.com'
+    :region                => 'eu-west-1',
+    :host                  => 'spicerack-preview.s3-eu-west-1.com'
   }
 
   # For testing, upload files to local `tmp` folder.
