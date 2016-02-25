@@ -1,0 +1,7 @@
+<%= form_for @auth, url: viewers_unlock_path do |f| %>
+	<br/><br/>
+	<%= f.label "Enter your email" %>
+	<%= f.text_field :email %>
+	<br/><br/>
+	<%= f.submit %>
+<% end %>
