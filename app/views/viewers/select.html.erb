@@ -1,0 +1,22 @@
+<div class="row page-body">
+	<div class="small-12 columns text-center">
+		<div class="logo-group">
+			<%= image_tag('spice-logo') %>
+			<img src="<%= @campaign.client.logo.url %>" class="client-logo">
+		</div>
+		<h2><%= @campaign.name %></h2>
+		<p>Select an Advert to View</p>
+		<div class="row">
+			<% @campaign.adverts.each do |advert| %>
+				<div class="small-12 medium-3 columns">
+					<%= link_to viewers_preview_path(advert) do %>
+						<div class="ad-panel">
+							<p><%= advert.format %></p>
+							<p>Click to View</p>
+						</div>
+					<% end %>
+				</div>
+			<% end %>
+		</div>
+	</div>
+</div>

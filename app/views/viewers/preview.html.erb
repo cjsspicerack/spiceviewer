@@ -1,2 +1,49 @@
-<h1>Viewers#preview</h1>
-<p>Find me in app/views/viewers/preview.html.erb</p>
+<div class="row top-bar">
+	<a href="#" class="toggle-site">
+		<div class="medium-2 columns text-center site-btn">
+			Change Website
+		</div>
+	</a>
+	<div class="medium-8 columns text-center">
+	</div>
+	<div class="medium-2 columns text-center comment-btn">
+		<!-- <a href="#" class="toggle-panel">Comments (1)</a> -->
+	</div>
+</div>
+
+<div id="panel-left">
+	<h3 class="head">Select Website</h3>
+</div>
+
+
+<div id="panel-right">
+	<div class="comments">
+	    <h3>Comments (1)</h3>
+	    <div class="com">
+	    	<p>person@personscompany.com</p>
+	    	<p>This advert looks really great, good job!</p>
+	    </div>
+	</div>
+</div>
+
+<script type="text/javascript">
+$('#panel-left').scotchPanel({
+    containerSelector: 'body', // As a jQuery Selector
+    direction: 'left', // Make it toggle in from the left
+    duration: 300, // Speed in ms how fast you want it to be
+    transition: 'ease', // CSS3 transition type: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(P1x,P1y,P2x,P2y)
+    clickSelector: '.toggle-site', // Enables toggling when clicking elements of this class
+    distanceX: '25%', // Size fo the toggle
+    enableEscapeKey: true // Clicking Esc will close the panel
+});
+
+$('#panel-right').scotchPanel({
+    containerSelector: 'body', // As a jQuery Selector
+    direction: 'right', // Make it toggle in from the left
+    duration: 300, // Speed in ms how fast you want it to be
+    transition: 'ease', // CSS3 transition type: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(P1x,P1y,P2x,P2y)
+    clickSelector: '.toggle-panel', // Enables toggling when clicking elements of this class
+    distanceX: '35%', // Size fo the toggle
+    enableEscapeKey: true // Clicking Esc will close the panel
+});
+</script>

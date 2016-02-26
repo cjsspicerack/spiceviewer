@@ -1,10 +1,10 @@
-ActiveAdmin.register Campaign do
-menu priority: 2
+ActiveAdmin.register Advert do
+menu priority: 3
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
-permit_params :client_id, :name, :slug
+permit_params :campaign_id, :format, {files: []}
 #
 # or
 #
@@ -14,14 +14,15 @@ permit_params :client_id, :name, :slug
 #   permitted
 # end
 
-index do
-	selectable_column
-	id_column
-	column :name
-	column("Link") { |campaign| url_for(viewers_select_path(campaign)) }
-	column :client
-	column("Adverts") { |campaign| campaign.adverts.count }
-	actions
+
+form do |f|
+  f.inputs do
+	f.input :campaign
+    f.input :format, as: :select, collection: ['250x300', '300x600', '160x600' ,'728x90']
+    f.file_field :files, multiple: true, name: "advert[files]"
+  end
+  f.submit
 end
+
 
 end

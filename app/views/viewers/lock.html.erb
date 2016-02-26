@@ -1,7 +1,13 @@
-<%= form_for @auth, url: viewers_unlock_path do |f| %>
-	<br/><br/>
-	<%= f.label "Enter your email" %>
-	<%= f.text_field :email %>
-	<br/><br/>
-	<%= f.submit %>
-<% end %>
+<div class="row page-body">
+	<div class="small-12 columns text-center">
+		<div class="logo-group">
+			<%= image_tag('spice-logo') %>
+			<img src="<%= @campaign.client.logo.url %>" class="client-logo">
+		</div>
+		<%= form_for @auth, url: viewers_unlock_path do |f| %>
+			<%= f.text_field :email, placeholder: "Enter your email address" %><br/>
+			<%= hidden_field_tag :id, params[:id]%>
+			<%= f.submit "Authenticate", class: "auth-submit" %>
+		<% end %>
+	</div>
+</div>

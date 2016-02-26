@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
 
-  root 'viewers#preview'
+  root 'admin/campaigns#index'
   
-  get 'viewers/lock'
-  post 'viewers/unlock', to: 'viewers#unlock', as: 'viewers_unlock'
-  get 'viewers/preview'
+  get 'lock/:id', to: 'viewers#lock', as: 'viewers_lock'
+  post 'unlock', to: 'viewers#unlock', as: 'viewers_unlock'
+  get 'campaign/:id', to: 'viewers#select', as: 'viewers_select'
+  get 'advert/:id', to: 'viewers#preview', as: 'viewers_preview'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)

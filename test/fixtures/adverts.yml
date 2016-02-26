@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  dimensions: 1
+  format: MyString
+  files: MyText
   campaign_id: 1
 
 two:
-  dimensions: 1
+  format: MyString
+  files: MyText
   campaign_id: 1

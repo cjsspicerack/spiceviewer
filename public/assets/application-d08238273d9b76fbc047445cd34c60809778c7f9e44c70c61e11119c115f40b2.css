@@ -1,0 +1,2831 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+ */
+/* line 19, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.page-body {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+/* line 22, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.page-body h2 {
+  margin-bottom: 0.5rem;
+}
+/* line 25, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.page-body p:first-of-type {
+  margin-bottom: 5rem;
+}
+
+/* line 30, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.client-logo {
+  margin-bottom: 2rem;
+  height: 4rem;
+  width: auto;
+}
+
+/* line 36, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.ad-panel {
+  background: #545454;
+  border-radius: 3px;
+  margin: 1rem 0;
+  padding: 2.5rem 0;
+}
+/* line 41, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.ad-panel p:first-of-type {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+/* line 45, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.ad-panel p {
+  color: #fff;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+/* line 59, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+   * Remove default margin.
+   */
+/* line 70, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+     ========================================================================== */
+/**
+   * Correct `block` display not defined for any HTML5 element in IE 8/9.
+   * Correct `block` display not defined for `details` or `summary` in IE 10/11
+   * and Firefox.
+   * Correct `block` display not defined for `main` in IE 11.
+   */
+/* line 81, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+   * 1. Correct `inline-block` display not defined in IE 8/9.
+   * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+   */
+/* line 100, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+   * Prevent modern browsers from displaying `audio` without controls.
+   * Remove excess height in iOS 5 devices.
+   */
+/* line 113, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+   * Address `[hidden]` styling not present in IE 8/9/10.
+   * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+   */
+/* line 121, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+     ========================================================================== */
+/**
+   * Remove the gray background color from active links in IE 10.
+   */
+/* line 130, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+   * Improve readability of focused elements when they are also in an
+   * active/hover state.
+   */
+/* line 137, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+   */
+/* line 146, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+   * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+   */
+/* line 152, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+   * Address styling not present in Safari and Chrome.
+   */
+/* line 159, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+   * Address variable `h1` font-size and margin within `section` and `article`
+   * contexts in Firefox 4+, Safari, and Chrome.
+   */
+/* line 166, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+   * Address styling not present in IE 8/9.
+   */
+/* line 173, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+   * Address inconsistent and variable font size in all browsers.
+   */
+/* line 180, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+   */
+/* line 186, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 193, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 196, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove border when inside `a` element in IE 8/9/10.
+   */
+/* line 204, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+img {
+  border: 0;
+}
+
+/**
+   * Correct overflow not hidden in IE 9/10/11.
+   */
+/* line 210, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * Address margin not present in IE 8/9 and Safari.
+   */
+/* line 218, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+   * Address differences between Firefox and other browsers.
+   */
+/* line 224, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+   * Contain overflow in all browsers.
+   */
+/* line 231, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+   * Address odd `em`-unit font size rendering in all browsers.
+   */
+/* line 237, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+     ========================================================================== */
+/**
+   * Known limitation: by default, Chrome and Safari on OS X allow very limited
+   * styling of `select`, unless a `border` property is set.
+   */
+/**
+   * 1. Correct color not being inherited.
+   *    Known issue: affects color of disabled elements.
+   * 2. Correct font properties not being inherited.
+   * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+   */
+/* line 256, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+   * Address `overflow` set to `hidden` in IE 8/9/10/11.
+   */
+/* line 271, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+button {
+  overflow: visible;
+}
+
+/**
+   * Address inconsistent `text-transform` inheritance for `button` and `select`.
+   * All other form control elements do not inherit `text-transform` values.
+   * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+   * Correct `select` style inheritance in Firefox.
+   */
+/* line 280, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+   * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+   *    and `video` controls.
+   * 2. Correct inability to style clickable `input` types in iOS.
+   * 3. Improve usability and consistency of cursor style between image-type
+   *    `input` and others.
+   */
+/* line 291, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+   * Re-set default cursor for disabled elements.
+   */
+/* line 303, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+   * Remove inner padding and border in Firefox 4+.
+   */
+/* line 310, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+   * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+   * the UA stylesheet.
+   */
+/* line 319, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+input {
+  line-height: normal;
+}
+
+/**
+   * It's recommended that you don't attempt to style these elements.
+   * Firefox's implementation doesn't respect box-sizing, padding, or width.
+   *
+   * 1. Address box sizing set to `content-box` in IE 8/9/10.
+   * 2. Remove excess padding in IE 8/9/10.
+   */
+/* line 329, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+   * `font-size` values of the `input`, it causes the cursor style of the
+   * decrement button to change from `default` to `text`.
+   */
+/* line 341, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+   * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+   */
+/* line 349, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+   * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+   * Safari (but not Chrome) clips the cancel button when the search input has
+   * padding (and `textfield` appearance).
+   */
+/* line 360, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * Define consistent border, margin, and padding.
+   * [NOTE] We don't enable this ruleset in Foundation, because we want the <fieldset> element to have plain styling.
+   */
+/* fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+  } */
+/**
+   * 1. Correct `color` not being inherited in IE 8/9/10/11.
+   * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+   */
+/* line 377, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Remove default vertical scrollbar in IE 8/9/10/11.
+   */
+/* line 386, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * Don't inherit the `font-weight` (applied by a rule above).
+   * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+   */
+/* line 393, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+     ========================================================================== */
+/**
+   * Remove most spacing between table cells.
+   */
+/* line 401, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 405, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 409, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.foundation-mq {
+  font-family: "small=0em&medium=40em&large=64em&xlarge=75em&xxlarge=90em";
+}
+
+/* line 412, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+/* line 416, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* line 421, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #0a0a0a;
+  background: #fefefe;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 432, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 439, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+  border-radius: 0;
+}
+
+/* line 444, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+select {
+  width: 100%;
+  border-radius: 0;
+}
+
+/* line 448, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object,
+.mqa-display img,
+.mqa-display embed,
+.mqa-display object {
+  max-width: none !important;
+}
+
+/* line 459, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  line-height: 1;
+}
+
+/* line 468, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.is-visible {
+  display: block !important;
+}
+
+/* line 471, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.is-hidden {
+  display: none !important;
+}
+
+/* line 474, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row {
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 478, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row::before, .row::after {
+  content: ' ';
+  display: table;
+}
+
+/* line 481, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row::after {
+  clear: both;
+}
+
+/* line 483, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row.collapse > .column, .row.collapse > .columns {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 486, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row .row {
+  margin-left: -0.625rem;
+  margin-right: -0.625rem;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 490, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .row .row {
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+  }
+}
+/* line 493, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row .row.collapse {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 496, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row.expanded {
+  max-width: none;
+}
+
+/* line 498, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row.expanded .row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 502, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.column, .columns {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  width: 100%;
+  float: left;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 508, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .column, .columns {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+}
+/* line 511, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+  float: right;
+}
+
+/* line 513, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.column.end:last-child:last-child, .end.columns:last-child:last-child {
+  float: left;
+}
+
+/* line 516, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.column.row.row, .row.row.columns {
+  float: none;
+}
+
+/* line 518, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row .column.row.row, .row .row.row.columns {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 524, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-1 {
+  width: 8.33333%;
+}
+
+/* line 527, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-1 {
+  position: relative;
+  left: 8.33333%;
+}
+
+/* line 531, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-1 {
+  position: relative;
+  left: -8.33333%;
+}
+
+/* line 535, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-0 {
+  margin-left: 0%;
+}
+
+/* line 538, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-2 {
+  width: 16.66667%;
+}
+
+/* line 541, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-2 {
+  position: relative;
+  left: 16.66667%;
+}
+
+/* line 545, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-2 {
+  position: relative;
+  left: -16.66667%;
+}
+
+/* line 549, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-1 {
+  margin-left: 8.33333%;
+}
+
+/* line 552, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-3 {
+  width: 25%;
+}
+
+/* line 555, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-3 {
+  position: relative;
+  left: 25%;
+}
+
+/* line 559, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-3 {
+  position: relative;
+  left: -25%;
+}
+
+/* line 563, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-2 {
+  margin-left: 16.66667%;
+}
+
+/* line 566, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-4 {
+  width: 33.33333%;
+}
+
+/* line 569, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-4 {
+  position: relative;
+  left: 33.33333%;
+}
+
+/* line 573, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-4 {
+  position: relative;
+  left: -33.33333%;
+}
+
+/* line 577, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-3 {
+  margin-left: 25%;
+}
+
+/* line 580, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-5 {
+  width: 41.66667%;
+}
+
+/* line 583, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-5 {
+  position: relative;
+  left: 41.66667%;
+}
+
+/* line 587, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-5 {
+  position: relative;
+  left: -41.66667%;
+}
+
+/* line 591, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-4 {
+  margin-left: 33.33333%;
+}
+
+/* line 594, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-6 {
+  width: 50%;
+}
+
+/* line 597, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-6 {
+  position: relative;
+  left: 50%;
+}
+
+/* line 601, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-6 {
+  position: relative;
+  left: -50%;
+}
+
+/* line 605, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-5 {
+  margin-left: 41.66667%;
+}
+
+/* line 608, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-7 {
+  width: 58.33333%;
+}
+
+/* line 611, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-7 {
+  position: relative;
+  left: 58.33333%;
+}
+
+/* line 615, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-7 {
+  position: relative;
+  left: -58.33333%;
+}
+
+/* line 619, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-6 {
+  margin-left: 50%;
+}
+
+/* line 622, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-8 {
+  width: 66.66667%;
+}
+
+/* line 625, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-8 {
+  position: relative;
+  left: 66.66667%;
+}
+
+/* line 629, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-8 {
+  position: relative;
+  left: -66.66667%;
+}
+
+/* line 633, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-7 {
+  margin-left: 58.33333%;
+}
+
+/* line 636, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-9 {
+  width: 75%;
+}
+
+/* line 639, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-9 {
+  position: relative;
+  left: 75%;
+}
+
+/* line 643, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-9 {
+  position: relative;
+  left: -75%;
+}
+
+/* line 647, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-8 {
+  margin-left: 66.66667%;
+}
+
+/* line 650, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-10 {
+  width: 83.33333%;
+}
+
+/* line 653, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-10 {
+  position: relative;
+  left: 83.33333%;
+}
+
+/* line 657, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-10 {
+  position: relative;
+  left: -83.33333%;
+}
+
+/* line 661, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-9 {
+  margin-left: 75%;
+}
+
+/* line 664, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-11 {
+  width: 91.66667%;
+}
+
+/* line 667, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-11 {
+  position: relative;
+  left: 91.66667%;
+}
+
+/* line 671, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-11 {
+  position: relative;
+  left: -91.66667%;
+}
+
+/* line 675, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-10 {
+  margin-left: 83.33333%;
+}
+
+/* line 678, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-12 {
+  width: 100%;
+}
+
+/* line 681, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-11 {
+  margin-left: 91.66667%;
+}
+
+/* line 684, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-1 > .column, .small-up-1 > .columns {
+  width: 100%;
+  float: left;
+}
+
+/* line 687, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-1 > .column:nth-of-type(1n), .small-up-1 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 689, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-1 > .column:nth-of-type(1n+1), .small-up-1 > .columns:nth-of-type(1n+1) {
+  clear: both;
+}
+
+/* line 691, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-1 > .column:last-child, .small-up-1 > .columns:last-child {
+  float: left;
+}
+
+/* line 694, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-2 > .column, .small-up-2 > .columns {
+  width: 50%;
+  float: left;
+}
+
+/* line 697, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-2 > .column:nth-of-type(1n), .small-up-2 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 699, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-2 > .column:nth-of-type(2n+1), .small-up-2 > .columns:nth-of-type(2n+1) {
+  clear: both;
+}
+
+/* line 701, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-2 > .column:last-child, .small-up-2 > .columns:last-child {
+  float: left;
+}
+
+/* line 704, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-3 > .column, .small-up-3 > .columns {
+  width: 33.33333%;
+  float: left;
+}
+
+/* line 707, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-3 > .column:nth-of-type(1n), .small-up-3 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 709, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-3 > .column:nth-of-type(3n+1), .small-up-3 > .columns:nth-of-type(3n+1) {
+  clear: both;
+}
+
+/* line 711, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-3 > .column:last-child, .small-up-3 > .columns:last-child {
+  float: left;
+}
+
+/* line 714, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-4 > .column, .small-up-4 > .columns {
+  width: 25%;
+  float: left;
+}
+
+/* line 717, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-4 > .column:nth-of-type(1n), .small-up-4 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 719, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-4 > .column:nth-of-type(4n+1), .small-up-4 > .columns:nth-of-type(4n+1) {
+  clear: both;
+}
+
+/* line 721, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-4 > .column:last-child, .small-up-4 > .columns:last-child {
+  float: left;
+}
+
+/* line 724, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-5 > .column, .small-up-5 > .columns {
+  width: 20%;
+  float: left;
+}
+
+/* line 727, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-5 > .column:nth-of-type(1n), .small-up-5 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 729, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-5 > .column:nth-of-type(5n+1), .small-up-5 > .columns:nth-of-type(5n+1) {
+  clear: both;
+}
+
+/* line 731, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-5 > .column:last-child, .small-up-5 > .columns:last-child {
+  float: left;
+}
+
+/* line 734, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-6 > .column, .small-up-6 > .columns {
+  width: 16.66667%;
+  float: left;
+}
+
+/* line 737, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-6 > .column:nth-of-type(1n), .small-up-6 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 739, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-6 > .column:nth-of-type(6n+1), .small-up-6 > .columns:nth-of-type(6n+1) {
+  clear: both;
+}
+
+/* line 741, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-6 > .column:last-child, .small-up-6 > .columns:last-child {
+  float: left;
+}
+
+/* line 744, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-7 > .column, .small-up-7 > .columns {
+  width: 14.28571%;
+  float: left;
+}
+
+/* line 747, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-7 > .column:nth-of-type(1n), .small-up-7 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 749, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-7 > .column:nth-of-type(7n+1), .small-up-7 > .columns:nth-of-type(7n+1) {
+  clear: both;
+}
+
+/* line 751, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-7 > .column:last-child, .small-up-7 > .columns:last-child {
+  float: left;
+}
+
+/* line 754, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-8 > .column, .small-up-8 > .columns {
+  width: 12.5%;
+  float: left;
+}
+
+/* line 757, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-8 > .column:nth-of-type(1n), .small-up-8 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 759, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-8 > .column:nth-of-type(8n+1), .small-up-8 > .columns:nth-of-type(8n+1) {
+  clear: both;
+}
+
+/* line 761, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-8 > .column:last-child, .small-up-8 > .columns:last-child {
+  float: left;
+}
+
+/* line 764, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-collapse > .column, .small-collapse > .columns {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 768, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-collapse .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 772, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-uncollapse > .column, .small-uncollapse > .columns {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+/* line 776, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-centered {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 781, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-uncentered,
+.small-push-0,
+.small-pull-0 {
+  position: static;
+  margin-left: 0;
+  margin-right: 0;
+  float: left;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 790, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-1 {
+    width: 8.33333%;
+  }
+
+  /* line 792, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-1 {
+    position: relative;
+    left: 8.33333%;
+  }
+
+  /* line 795, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-1 {
+    position: relative;
+    left: -8.33333%;
+  }
+
+  /* line 798, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 800, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-2 {
+    width: 16.66667%;
+  }
+
+  /* line 802, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-2 {
+    position: relative;
+    left: 16.66667%;
+  }
+
+  /* line 805, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-2 {
+    position: relative;
+    left: -16.66667%;
+  }
+
+  /* line 808, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  /* line 810, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-3 {
+    width: 25%;
+  }
+
+  /* line 812, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-3 {
+    position: relative;
+    left: 25%;
+  }
+
+  /* line 815, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-3 {
+    position: relative;
+    left: -25%;
+  }
+
+  /* line 818, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 820, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-4 {
+    width: 33.33333%;
+  }
+
+  /* line 822, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-4 {
+    position: relative;
+    left: 33.33333%;
+  }
+
+  /* line 825, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-4 {
+    position: relative;
+    left: -33.33333%;
+  }
+
+  /* line 828, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 830, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-5 {
+    width: 41.66667%;
+  }
+
+  /* line 832, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-5 {
+    position: relative;
+    left: 41.66667%;
+  }
+
+  /* line 835, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-5 {
+    position: relative;
+    left: -41.66667%;
+  }
+
+  /* line 838, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 840, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-6 {
+    width: 50%;
+  }
+
+  /* line 842, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-6 {
+    position: relative;
+    left: 50%;
+  }
+
+  /* line 845, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-6 {
+    position: relative;
+    left: -50%;
+  }
+
+  /* line 848, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 850, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-7 {
+    width: 58.33333%;
+  }
+
+  /* line 852, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-7 {
+    position: relative;
+    left: 58.33333%;
+  }
+
+  /* line 855, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-7 {
+    position: relative;
+    left: -58.33333%;
+  }
+
+  /* line 858, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 860, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-8 {
+    width: 66.66667%;
+  }
+
+  /* line 862, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-8 {
+    position: relative;
+    left: 66.66667%;
+  }
+
+  /* line 865, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-8 {
+    position: relative;
+    left: -66.66667%;
+  }
+
+  /* line 868, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 870, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-9 {
+    width: 75%;
+  }
+
+  /* line 872, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-9 {
+    position: relative;
+    left: 75%;
+  }
+
+  /* line 875, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-9 {
+    position: relative;
+    left: -75%;
+  }
+
+  /* line 878, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 880, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-10 {
+    width: 83.33333%;
+  }
+
+  /* line 882, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-10 {
+    position: relative;
+    left: 83.33333%;
+  }
+
+  /* line 885, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-10 {
+    position: relative;
+    left: -83.33333%;
+  }
+
+  /* line 888, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 890, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-11 {
+    width: 91.66667%;
+  }
+
+  /* line 892, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-11 {
+    position: relative;
+    left: 91.66667%;
+  }
+
+  /* line 895, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-11 {
+    position: relative;
+    left: -91.66667%;
+  }
+
+  /* line 898, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 900, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-12 {
+    width: 100%;
+  }
+
+  /* line 902, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 904, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-1 > .column, .medium-up-1 > .columns {
+    width: 100%;
+    float: left;
+  }
+
+  /* line 907, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-1 > .column:nth-of-type(1n), .medium-up-1 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 909, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-1 > .column:nth-of-type(1n+1), .medium-up-1 > .columns:nth-of-type(1n+1) {
+    clear: both;
+  }
+
+  /* line 911, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-1 > .column:last-child, .medium-up-1 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 913, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-2 > .column, .medium-up-2 > .columns {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 916, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-2 > .column:nth-of-type(1n), .medium-up-2 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 918, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-2 > .column:nth-of-type(2n+1), .medium-up-2 > .columns:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  /* line 920, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-2 > .column:last-child, .medium-up-2 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 922, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-3 > .column, .medium-up-3 > .columns {
+    width: 33.33333%;
+    float: left;
+  }
+
+  /* line 925, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-3 > .column:nth-of-type(1n), .medium-up-3 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 927, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-3 > .column:nth-of-type(3n+1), .medium-up-3 > .columns:nth-of-type(3n+1) {
+    clear: both;
+  }
+
+  /* line 929, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-3 > .column:last-child, .medium-up-3 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 931, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-4 > .column, .medium-up-4 > .columns {
+    width: 25%;
+    float: left;
+  }
+
+  /* line 934, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-4 > .column:nth-of-type(1n), .medium-up-4 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 936, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-4 > .column:nth-of-type(4n+1), .medium-up-4 > .columns:nth-of-type(4n+1) {
+    clear: both;
+  }
+
+  /* line 938, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-4 > .column:last-child, .medium-up-4 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 940, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-5 > .column, .medium-up-5 > .columns {
+    width: 20%;
+    float: left;
+  }
+
+  /* line 943, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-5 > .column:nth-of-type(1n), .medium-up-5 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 945, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-5 > .column:nth-of-type(5n+1), .medium-up-5 > .columns:nth-of-type(5n+1) {
+    clear: both;
+  }
+
+  /* line 947, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-5 > .column:last-child, .medium-up-5 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 949, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-6 > .column, .medium-up-6 > .columns {
+    width: 16.66667%;
+    float: left;
+  }
+
+  /* line 952, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-6 > .column:nth-of-type(1n), .medium-up-6 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 954, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-6 > .column:nth-of-type(6n+1), .medium-up-6 > .columns:nth-of-type(6n+1) {
+    clear: both;
+  }
+
+  /* line 956, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-6 > .column:last-child, .medium-up-6 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 958, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-7 > .column, .medium-up-7 > .columns {
+    width: 14.28571%;
+    float: left;
+  }
+
+  /* line 961, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-7 > .column:nth-of-type(1n), .medium-up-7 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 963, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-7 > .column:nth-of-type(7n+1), .medium-up-7 > .columns:nth-of-type(7n+1) {
+    clear: both;
+  }
+
+  /* line 965, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-7 > .column:last-child, .medium-up-7 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 967, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-8 > .column, .medium-up-8 > .columns {
+    width: 12.5%;
+    float: left;
+  }
+
+  /* line 970, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-8 > .column:nth-of-type(1n), .medium-up-8 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 972, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-8 > .column:nth-of-type(8n+1), .medium-up-8 > .columns:nth-of-type(8n+1) {
+    clear: both;
+  }
+
+  /* line 974, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-8 > .column:last-child, .medium-up-8 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 976, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-collapse > .column, .medium-collapse > .columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 979, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-collapse .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 982, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-uncollapse > .column, .medium-uncollapse > .columns {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+
+  /* line 985, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 989, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-uncentered,
+  .medium-push-0,
+  .medium-pull-0 {
+    position: static;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+  }
+}
+@media screen and (min-width: 64em) {
+  /* line 998, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-1 {
+    width: 8.33333%;
+  }
+
+  /* line 1000, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-1 {
+    position: relative;
+    left: 8.33333%;
+  }
+
+  /* line 1003, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-1 {
+    position: relative;
+    left: -8.33333%;
+  }
+
+  /* line 1006, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 1008, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-2 {
+    width: 16.66667%;
+  }
+
+  /* line 1010, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-2 {
+    position: relative;
+    left: 16.66667%;
+  }
+
+  /* line 1013, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-2 {
+    position: relative;
+    left: -16.66667%;
+  }
+
+  /* line 1016, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  /* line 1018, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-3 {
+    width: 25%;
+  }
+
+  /* line 1020, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-3 {
+    position: relative;
+    left: 25%;
+  }
+
+  /* line 1023, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-3 {
+    position: relative;
+    left: -25%;
+  }
+
+  /* line 1026, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 1028, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-4 {
+    width: 33.33333%;
+  }
+
+  /* line 1030, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-4 {
+    position: relative;
+    left: 33.33333%;
+  }
+
+  /* line 1033, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-4 {
+    position: relative;
+    left: -33.33333%;
+  }
+
+  /* line 1036, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 1038, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-5 {
+    width: 41.66667%;
+  }
+
+  /* line 1040, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-5 {
+    position: relative;
+    left: 41.66667%;
+  }
+
+  /* line 1043, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-5 {
+    position: relative;
+    left: -41.66667%;
+  }
+
+  /* line 1046, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 1048, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-6 {
+    width: 50%;
+  }
+
+  /* line 1050, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-6 {
+    position: relative;
+    left: 50%;
+  }
+
+  /* line 1053, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-6 {
+    position: relative;
+    left: -50%;
+  }
+
+  /* line 1056, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 1058, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-7 {
+    width: 58.33333%;
+  }
+
+  /* line 1060, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-7 {
+    position: relative;
+    left: 58.33333%;
+  }
+
+  /* line 1063, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-7 {
+    position: relative;
+    left: -58.33333%;
+  }
+
+  /* line 1066, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 1068, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-8 {
+    width: 66.66667%;
+  }
+
+  /* line 1070, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-8 {
+    position: relative;
+    left: 66.66667%;
+  }
+
+  /* line 1073, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-8 {
+    position: relative;
+    left: -66.66667%;
+  }
+
+  /* line 1076, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 1078, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-9 {
+    width: 75%;
+  }
+
+  /* line 1080, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-9 {
+    position: relative;
+    left: 75%;
+  }
+
+  /* line 1083, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-9 {
+    position: relative;
+    left: -75%;
+  }
+
+  /* line 1086, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 1088, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-10 {
+    width: 83.33333%;
+  }
+
+  /* line 1090, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-10 {
+    position: relative;
+    left: 83.33333%;
+  }
+
+  /* line 1093, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-10 {
+    position: relative;
+    left: -83.33333%;
+  }
+
+  /* line 1096, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 1098, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-11 {
+    width: 91.66667%;
+  }
+
+  /* line 1100, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-11 {
+    position: relative;
+    left: 91.66667%;
+  }
+
+  /* line 1103, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-11 {
+    position: relative;
+    left: -91.66667%;
+  }
+
+  /* line 1106, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 1108, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-12 {
+    width: 100%;
+  }
+
+  /* line 1110, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 1112, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-1 > .column, .large-up-1 > .columns {
+    width: 100%;
+    float: left;
+  }
+
+  /* line 1115, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-1 > .column:nth-of-type(1n), .large-up-1 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1117, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-1 > .column:nth-of-type(1n+1), .large-up-1 > .columns:nth-of-type(1n+1) {
+    clear: both;
+  }
+
+  /* line 1119, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-1 > .column:last-child, .large-up-1 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1121, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-2 > .column, .large-up-2 > .columns {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 1124, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-2 > .column:nth-of-type(1n), .large-up-2 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1126, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-2 > .column:nth-of-type(2n+1), .large-up-2 > .columns:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  /* line 1128, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-2 > .column:last-child, .large-up-2 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1130, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-3 > .column, .large-up-3 > .columns {
+    width: 33.33333%;
+    float: left;
+  }
+
+  /* line 1133, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-3 > .column:nth-of-type(1n), .large-up-3 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1135, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-3 > .column:nth-of-type(3n+1), .large-up-3 > .columns:nth-of-type(3n+1) {
+    clear: both;
+  }
+
+  /* line 1137, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-3 > .column:last-child, .large-up-3 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1139, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-4 > .column, .large-up-4 > .columns {
+    width: 25%;
+    float: left;
+  }
+
+  /* line 1142, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-4 > .column:nth-of-type(1n), .large-up-4 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1144, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-4 > .column:nth-of-type(4n+1), .large-up-4 > .columns:nth-of-type(4n+1) {
+    clear: both;
+  }
+
+  /* line 1146, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-4 > .column:last-child, .large-up-4 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1148, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-5 > .column, .large-up-5 > .columns {
+    width: 20%;
+    float: left;
+  }
+
+  /* line 1151, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-5 > .column:nth-of-type(1n), .large-up-5 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1153, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-5 > .column:nth-of-type(5n+1), .large-up-5 > .columns:nth-of-type(5n+1) {
+    clear: both;
+  }
+
+  /* line 1155, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-5 > .column:last-child, .large-up-5 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1157, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-6 > .column, .large-up-6 > .columns {
+    width: 16.66667%;
+    float: left;
+  }
+
+  /* line 1160, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-6 > .column:nth-of-type(1n), .large-up-6 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1162, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-6 > .column:nth-of-type(6n+1), .large-up-6 > .columns:nth-of-type(6n+1) {
+    clear: both;
+  }
+
+  /* line 1164, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-6 > .column:last-child, .large-up-6 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1166, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-7 > .column, .large-up-7 > .columns {
+    width: 14.28571%;
+    float: left;
+  }
+
+  /* line 1169, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-7 > .column:nth-of-type(1n), .large-up-7 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1171, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-7 > .column:nth-of-type(7n+1), .large-up-7 > .columns:nth-of-type(7n+1) {
+    clear: both;
+  }
+
+  /* line 1173, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-7 > .column:last-child, .large-up-7 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1175, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-8 > .column, .large-up-8 > .columns {
+    width: 12.5%;
+    float: left;
+  }
+
+  /* line 1178, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-8 > .column:nth-of-type(1n), .large-up-8 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1180, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-8 > .column:nth-of-type(8n+1), .large-up-8 > .columns:nth-of-type(8n+1) {
+    clear: both;
+  }
+
+  /* line 1182, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-8 > .column:last-child, .large-up-8 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1184, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-collapse > .column, .large-collapse > .columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 1187, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-collapse .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 1190, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-uncollapse > .column, .large-uncollapse > .columns {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+
+  /* line 1193, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 1197, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-uncentered,
+  .large-push-0,
+  .large-pull-0 {
+    position: static;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+  }
+}
+/* line 1205, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1227, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+p {
+  font-size: inherit;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 1233, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+em,
+i {
+  font-style: italic;
+  line-height: inherit;
+}
+
+/* line 1238, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+strong,
+b {
+  font-weight: bold;
+  line-height: inherit;
+}
+
+/* line 1243, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+small {
+  font-size: 80%;
+  line-height: inherit;
+}
+
+/* line 1247, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: inherit;
+  text-rendering: optimizeLegibility;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+/* line 1261, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  color: #cacaca;
+  line-height: 0;
+}
+
+/* line 1270, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+h1 {
+  font-size: 1.5rem;
+}
+
+/* line 1273, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+h2 {
+  font-size: 1.25rem;
+}
+
+/* line 1276, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+h3 {
+  font-size: 1.1875rem;
+}
+
+/* line 1279, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+h4 {
+  font-size: 1.125rem;
+}
+
+/* line 1282, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+h5 {
+  font-size: 1.0625rem;
+}
+
+/* line 1285, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+h6 {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 1289, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h1 {
+    font-size: 3rem;
+  }
+
+  /* line 1291, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  /* line 1293, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h3 {
+    font-size: 1.9375rem;
+  }
+
+  /* line 1295, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h4 {
+    font-size: 1.5625rem;
+  }
+
+  /* line 1297, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  /* line 1299, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h6 {
+    font-size: 1rem;
+  }
+}
+/* line 1302, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+a {
+  color: #2199e8;
+  text-decoration: none;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+/* line 1307, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+a:hover, a:focus {
+  color: #1585cf;
+}
+
+/* line 1309, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+a img {
+  border: 0;
+}
+
+/* line 1312, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+hr {
+  max-width: 75rem;
+  height: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid #cacaca;
+  border-left: 0;
+  margin: 1.25rem auto;
+  clear: both;
+}
+
+/* line 1322, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+ul,
+ol,
+dl {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  list-style-position: outside;
+}
+
+/* line 1329, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+li {
+  font-size: inherit;
+}
+
+/* line 1332, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+ul {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+}
+
+/* line 1336, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+ol {
+  margin-left: 1.25rem;
+}
+
+/* line 1339, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+ul ul, ol ul, ul ol, ol ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+/* line 1343, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+dl {
+  margin-bottom: 1rem;
+}
+
+/* line 1345, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+dl dt {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+/* line 1349, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+blockquote {
+  margin: 0 0 1rem;
+  padding: 0.5625rem 1.25rem 0 1.1875rem;
+  border-left: 1px solid #cacaca;
+}
+
+/* line 1353, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+blockquote, blockquote p {
+  line-height: 1.6;
+  color: #8a8a8a;
+}
+
+/* line 1357, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+cite {
+  display: block;
+  font-size: 0.8125rem;
+  color: #8a8a8a;
+}
+
+/* line 1361, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+cite:before {
+  content: '\2014 \0020';
+}
+
+/* line 1364, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+abbr {
+  color: #0a0a0a;
+  cursor: help;
+  border-bottom: 1px dotted #0a0a0a;
+}
+
+/* line 1369, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-weight: normal;
+  color: #0a0a0a;
+  background-color: #e6e6e6;
+  border: 1px solid #cacaca;
+  padding: 0.125rem 0.3125rem 0.0625rem;
+}
+
+/* line 1377, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+kbd {
+  padding: 0.125rem 0.25rem 0;
+  margin: 0;
+  background-color: #e6e6e6;
+  color: #0a0a0a;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+/* line 1384, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.subheader {
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #8a8a8a;
+}
+
+/* line 1391, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.lead {
+  font-size: 125%;
+  line-height: 1.6;
+}
+
+/* line 1395, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.stat {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+/* line 1398, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+p + .stat {
+  margin-top: -1rem;
+}
+
+/* line 1401, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.no-bullet {
+  margin-left: 0;
+  list-style: none;
+}
+
+/* line 1405, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 1408, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 1411, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 1414, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.text-justify {
+  text-align: justify;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 1418, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-text-left {
+    text-align: left;
+  }
+
+  /* line 1420, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-text-right {
+    text-align: right;
+  }
+
+  /* line 1422, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-text-center {
+    text-align: center;
+  }
+
+  /* line 1424, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-text-justify {
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 64em) {
+  /* line 1428, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-text-left {
+    text-align: left;
+  }
+
+  /* line 1430, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-text-right {
+    text-align: right;
+  }
+
+  /* line 1432, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-text-center {
+    text-align: center;
+  }
+
+  /* line 1434, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-text-justify {
+    text-align: justify;
+  }
+}
+/* line 1437, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.show-for-print {
+  display: none !important;
+}
+
+@media print {
+  /* line 1441, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 1446, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .show-for-print {
+    display: block !important;
+  }
+
+  /* line 1448, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .hide-for-print {
+    display: none !important;
+  }
+
+  /* line 1450, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  table.show-for-print {
+    display: table !important;
+  }
+
+  /* line 1452, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  thead.show-for-print {
+    display: table-header-group !important;
+  }
+
+  /* line 1454, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  tbody.show-for-print {
+    display: table-row-group !important;
+  }
+
+  /* line 1456, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  tr.show-for-print {
+    display: table-row !important;
+  }
+
+  /* line 1458, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  td.show-for-print {
+    display: table-cell !important;
+  }
+
+  /* line 1460, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  th.show-for-print {
+    display: table-cell !important;
+  }
+
+  /* line 1462, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 1465, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 1467, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .ir a:after,
+  a[href^='javascript:']:after,
+  a[href^='#']:after {
+    content: '';
+  }
+
+  /* line 1471, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 1473, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 1477, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 1479, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 1482, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+  /* line 1486, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 1491, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* line 1495, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button {
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding: 0.85em 1em;
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  background-color: #2199e8;
+  color: #fff;
+}
+
+/* line 1510, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+[data-whatinput='mouse'] .button {
+  outline: 0;
+}
+
+/* line 1512, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button:hover, .button:focus {
+  background-color: #1583cc;
+  color: #fff;
+}
+
+/* line 1515, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.tiny {
+  font-size: 0.6rem;
+}
+
+/* line 1517, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.small {
+  font-size: 0.75rem;
+}
+
+/* line 1519, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.large {
+  font-size: 1.25rem;
+}
+
+/* line 1521, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.expanded {
+  display: block;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 1526, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.primary {
+  background-color: #2199e8;
+  color: #fff;
+}
+
+/* line 1529, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.primary:hover, .button.primary:focus {
+  background-color: #147cc0;
+  color: #fff;
+}
+
+/* line 1532, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.secondary {
+  background-color: #777;
+  color: #fff;
+}
+
+/* line 1535, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.secondary:hover, .button.secondary:focus {
+  background-color: #5f5f5f;
+  color: #fff;
+}
+
+/* line 1538, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.success {
+  background-color: #3adb76;
+  color: #fff;
+}
+
+/* line 1541, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.success:hover, .button.success:focus {
+  background-color: #22bb5b;
+  color: #fff;
+}
+
+/* line 1544, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.alert {
+  background-color: #ec5840;
+  color: #fff;
+}
+
+/* line 1547, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.alert:hover, .button.alert:focus {
+  background-color: #da3116;
+  color: #fff;
+}
+
+/* line 1550, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.warning {
+  background-color: #ffae00;
+  color: #fff;
+}
+
+/* line 1553, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.warning:hover, .button.warning:focus {
+  background-color: #cc8b00;
+  color: #fff;
+}
+
+/* line 1556, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow {
+  border: 1px solid #2199e8;
+  color: #2199e8;
+}
+
+/* line 1559, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow, .button.hollow:hover, .button.hollow:focus {
+  background-color: transparent;
+}
+
+/* line 1561, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow:hover, .button.hollow:focus {
+  border-color: #0c4d78;
+  color: #0c4d78;
+}
+
+/* line 1564, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.primary {
+  border: 1px solid #2199e8;
+  color: #2199e8;
+}
+
+/* line 1567, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.primary:hover, .button.hollow.primary:focus {
+  border-color: #0c4d78;
+  color: #0c4d78;
+}
+
+/* line 1570, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.secondary {
+  border: 1px solid #777;
+  color: #777;
+}
+
+/* line 1573, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.secondary:hover, .button.hollow.secondary:focus {
+  border-color: #3c3c3c;
+  color: #3c3c3c;
+}
+
+/* line 1576, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.success {
+  border: 1px solid #3adb76;
+  color: #3adb76;
+}
+
+/* line 1579, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.success:hover, .button.hollow.success:focus {
+  border-color: #157539;
+  color: #157539;
+}
+
+/* line 1582, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.alert {
+  border: 1px solid #ec5840;
+  color: #ec5840;
+}
+
+/* line 1585, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.alert:hover, .button.hollow.alert:focus {
+  border-color: #881f0e;
+  color: #881f0e;
+}
+
+/* line 1588, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.warning {
+  border: 1px solid #ffae00;
+  color: #ffae00;
+}
+
+/* line 1591, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.warning:hover, .button.hollow.warning:focus {
+  border-color: #805700;
+  color: #805700;
+}
+
+/* line 1594, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.disabled, .button[disabled] {
+  opacity: 0.25;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* line 1598, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.dropdown::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: inset 0.4em;
+  border-color: #fefefe transparent transparent;
+  border-top-style: solid;
+  border-bottom-width: 0;
+  position: relative;
+  top: 0.4em;
+  float: right;
+  margin-left: 1em;
+  display: inline-block;
+}
+
+/* line 1612, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.arrow-only::after {
+  margin-left: 0;
+  float: none;
+  top: 0.2em;
+}
+
+/* line 1617, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+body.is-reveal-open {
+  overflow: hidden;
+}
+
+/* line 1620, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.reveal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1005;
+  background-color: rgba(10, 10, 10, 0.45);
+  overflow-y: scroll;
+}
+
+/* line 1631, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.reveal {
+  display: none;
+  z-index: 1006;
+  padding: 1rem;
+  border: 1px solid #cacaca;
+  margin: 6.25rem auto 0;
+  background-color: #fefefe;
+  border-radius: 0;
+  position: absolute;
+  overflow-y: auto;
+}
+
+/* line 1641, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+[data-whatinput='mouse'] .reveal {
+  outline: 0;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 1644, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .reveal {
+    min-height: 0;
+  }
+}
+/* line 1646, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.reveal .column, .reveal .columns,
+.reveal .columns {
+  min-width: 0;
+}
+
+/* line 1649, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.reveal > :last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 1652, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .reveal {
+    width: 600px;
+    max-width: 75rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  /* line 1656, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .reveal .reveal {
+    left: auto;
+    right: auto;
+    margin: 0 auto;
+  }
+}
+/* line 1660, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.reveal.collapse {
+  padding: 0;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 1663, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .reveal.tiny {
+    width: 30%;
+    max-width: 75rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  /* line 1667, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .reveal.small {
+    width: 50%;
+    max-width: 75rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  /* line 1671, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .reveal.large {
+    width: 90%;
+    max-width: 75rem;
+  }
+}
+/* line 1674, /Users/Callum/Documents/spiceviewer/app/assets/stylesheets/application.css.scss */
+.reveal.full {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  max-width: none;
+  margin-left: 0;
+  border: 0;
+}
+
+/*# sourceMappingURL=foundation.css.map */

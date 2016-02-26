@@ -2,9 +2,11 @@ source 'https://rubygems.org'
 
 gem 'devise'
 gem 'activeadmin', github: 'gregbell/active_admin'
-gem 'carrierwave'
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'fog'
 gem 'fog-aws'
+gem 'rubyzip'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
