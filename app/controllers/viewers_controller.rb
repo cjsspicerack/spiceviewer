@@ -1,5 +1,5 @@
 class ViewersController < ApplicationController
-	before_action :lock_check, except: [:lock, :unlock]
+	before_action :lock_check, except: [:lock, :unlock, :files, :files_update]
 
 	def lock
 		@campaign = Campaign.find(params[:id])
