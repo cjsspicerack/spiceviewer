@@ -1,0 +1,7 @@
+<div class="row text-center">
+	<br/><br/>
+	<%= form_for @advert, url: viewers_files_post_path(@advert), :html => { :multipart => true }  do |f| %>
+		<%= f.file_field :files, multiple: true, name: "advert[files]" %>
+		<%= f.submit %>
+	<% end %>
+</div>

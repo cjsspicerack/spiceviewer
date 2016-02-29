@@ -20,9 +20,27 @@ class ViewersController < ApplicationController
 	end
 
 	def preview
+		@advert = Advert.find(params[:id])
+		formatIndex = ["250x300", "300x600", "160x600", "729x90"].find_index(@advert.format)
+		formatClasses = ["fOne", "fTwo", "fThree", "fFour"]
+		@formatClass = formatClasses[formatIndex]
 	end
 
+	def files
+		@advert = Advert.find(params[:id])
+	end
+
+	def files_update
+		if Advert.find(params[:id]).update(files: params[:advert][:files])
+			redirect_to viewers_files_path(params[:id])
+		end
+	end
+	
 	private
+
+	def assets_params
+		params.require(:advert).permit({files: []})
+	end
 
 	def lock_check
 		if session[:spiceviewer].present? == false

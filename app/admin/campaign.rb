@@ -21,6 +21,7 @@ index do
 	column("Link") { |campaign| url_for(viewers_select_path(campaign)) }
 	column :client
 	column("Adverts") { |campaign| campaign.adverts.count }
+	column("Launch Campaign") { |campaign| link_to("Launch", viewers_select_path(campaign), :target => "_blank") }
 	actions
 end
 

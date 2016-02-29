@@ -5,7 +5,9 @@ Rails.application.routes.draw do
   get 'lock/:id', to: 'viewers#lock', as: 'viewers_lock'
   post 'unlock', to: 'viewers#unlock', as: 'viewers_unlock'
   get 'campaign/:id', to: 'viewers#select', as: 'viewers_select'
-  get 'advert/:id', to: 'viewers#preview', as: 'viewers_preview'
+  get 'advert/:id/(:site)', to: 'viewers#preview', as: 'viewers_preview'
+  get 'files/:id', to: 'viewers#files', as: 'viewers_files'
+  patch 'files/update/:id', to: 'viewers#files_update', as: 'viewers_files_post'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)

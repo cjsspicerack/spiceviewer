@@ -1,49 +1,87 @@
-<div class="row top-bar">
-	<a href="#" class="toggle-site">
-		<div class="medium-2 columns text-center site-btn">
-			Change Website
+
+	<div class="row top-bar">
+		<a href="#" class="toggle-site">
+			<div class="medium-2 columns text-center site-btn">
+				Change Preview
+			</div>
+		</a>
+		<div class="medium-3 columns text-center">
+			<br/>
 		</div>
-	</a>
-	<div class="medium-8 columns text-center">
+		<%= link_to viewers_select_path(@advert.campaign) do %>
+			<div class="medium-2 columns text-center site-btn">
+				Back to Campaign
+			</div>
+		<% end %>
+		<div class="medium-3 columns text-center">
+			<br/>
+		</div>
+		<div class="medium-2 columns text-center comment-btn">
+			<!-- <a href="#" class="toggle-panel">Comments (1)</a> -->
+		</div>
 	</div>
-	<div class="medium-2 columns text-center comment-btn">
-		<!-- <a href="#" class="toggle-panel">Comments (1)</a> -->
+
+	<div id="panel-left">
+		<h3 class="head">Select Website</h3>
+		<%= link_to "Plain", viewers_preview_path(id: params[:id], site: "plain") %>
+		<%= link_to "Independent", viewers_preview_path(id: params[:id], site: "one") %>
+		<%= link_to "Good Housekeeping", viewers_preview_path(id: params[:id], site: "two") %>
+		<%= link_to "Gizmodo", viewers_preview_path(id: params[:id], site: "three") %>
 	</div>
+
+
+<div class="main-container">
+	<iframe src="https://s3-eu-west-1.amazonaws.com/spicerack-preview/uploads/adverts/<%= @advert.id %>/files/index.html" id="advert"></iframe>
+	<% if params[:site] != "plain" %>
+			<%= image_tag params[:site], class: "bg-placeholder" %>
+		</div>
+	<% end %>
 </div>
 
-<div id="panel-left">
-	<h3 class="head">Select Website</h3>
-</div>
 
-
-<div id="panel-right">
-	<div class="comments">
-	    <h3>Comments (1)</h3>
-	    <div class="com">
-	    	<p>person@personscompany.com</p>
-	    	<p>This advert looks really great, good job!</p>
-	    </div>
+	<div id="panel-right">
+		<div class="comments">
+		    <h3>Comments (1)</h3>
+		    <div class="com">
+		    	<p>person@personscompany.com</p>
+		    	<p>This advert looks really great, good job!</p>
+		    </div>
+		</div>
 	</div>
-</div>
 
 <script type="text/javascript">
-$('#panel-left').scotchPanel({
-    containerSelector: 'body', // As a jQuery Selector
-    direction: 'left', // Make it toggle in from the left
-    duration: 300, // Speed in ms how fast you want it to be
-    transition: 'ease', // CSS3 transition type: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(P1x,P1y,P2x,P2y)
-    clickSelector: '.toggle-site', // Enables toggling when clicking elements of this class
-    distanceX: '25%', // Size fo the toggle
-    enableEscapeKey: true // Clicking Esc will close the panel
-});
 
-$('#panel-right').scotchPanel({
-    containerSelector: 'body', // As a jQuery Selector
-    direction: 'right', // Make it toggle in from the left
-    duration: 300, // Speed in ms how fast you want it to be
-    transition: 'ease', // CSS3 transition type: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(P1x,P1y,P2x,P2y)
-    clickSelector: '.toggle-panel', // Enables toggling when clicking elements of this class
-    distanceX: '35%', // Size fo the toggle
-    enableEscapeKey: true // Clicking Esc will close the panel
-});
+var ready;
+ready = function() {
+
+	$('#panel-left').scotchPanel({
+	    containerSelector: 'body', // As a jQuery Selector
+	    direction: 'left', // Make it toggle in from the left
+	    duration: 300, // Speed in ms how fast you want it to be
+	    transition: 'ease', // CSS3 transition type: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(P1x,P1y,P2x,P2y)
+	    clickSelector: '.toggle-site', // Enables toggling when clicking elements of this class
+	    distanceX: '25%', // Size fo the toggle
+	    enableEscapeKey: true // Clicking Esc will close the panel
+	});
+
+	$('#panel-right').scotchPanel({
+	    containerSelector: 'body', // As a jQuery Selector
+	    direction: 'right', // Make it toggle in from the left
+	    duration: 300, // Speed in ms how fast you want it to be
+	    transition: 'ease', // CSS3 transition type: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(P1x,P1y,P2x,P2y)
+	    clickSelector: '.toggle-panel', // Enables toggling when clicking elements of this class
+	    distanceX: '35%', // Size fo the toggle
+	    enableEscapeKey: true // Clicking Esc will close the panel
+	});
+
+    $('html, body').animate({
+        scrollTop: $("#advert").offset().top
+    }, 100);
+
+
+};
+
+$(document).ready(ready);
+$(document).on('page:load', ready);
+
 </script>
