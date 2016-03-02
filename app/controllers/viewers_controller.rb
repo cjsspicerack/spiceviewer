@@ -21,7 +21,7 @@ class ViewersController < ApplicationController
 
 	def preview
 		@advert = Advert.find(params[:id])
-		formatIndex = ["250x300", "300x600", "160x600", "729x90"].find_index(@advert.format)
+		formatIndex = ["300x250", "300x600", "160x600", "729x90"].find_index(@advert.format)
 		formatClasses = ["fOne", "fTwo", "fThree", "fFour"]
 		@formatClass = formatClasses[formatIndex]
 	end

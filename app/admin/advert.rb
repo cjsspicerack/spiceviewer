@@ -26,7 +26,7 @@ end
 form(:html => { :multipart => true }) do |f|
   f.inputs do
 	f.input :campaign
-    f.input :format, as: :select, collection: ['250x300', '300x600', '160x600' ,'728x90']
+    f.input :format, as: :select, collection: ['300x250', '300x600', '160x600' ,'728x90']
     # f.file_field :files, multiple: true, name: "advert[files]"
   end
   f.submit
