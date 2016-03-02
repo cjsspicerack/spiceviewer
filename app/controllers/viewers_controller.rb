@@ -7,7 +7,7 @@ class ViewersController < ApplicationController
 	end
 
 	def unlock
-		if Campaign.find(params[:id]).client.emails.include? params[:email]
+		if Campaign.find(params[:id]).client.emails.include? params[:email].downcase
 			session[:spiceviewer] = Hash.new
 			session[:spiceviewer][:current_user] = params[:email]
 			session[:spiceviewer][:expiry] = DateTime.now + 24.hours
