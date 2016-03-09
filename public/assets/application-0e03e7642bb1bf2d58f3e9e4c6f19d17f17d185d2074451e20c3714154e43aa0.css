@@ -1,0 +1,3104 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+ */
+/* line 17, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* line 24, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+body.three {
+  background: #273541;
+}
+/* line 27, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+body.two {
+  background: #E7EFF2;
+}
+/* line 30, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+body.one {
+  background: #F9F9F9;
+}
+/* line 33, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+body.plain {
+  background: #fff;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 45, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.main-container {
+  width: 1200px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 51, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.main-container img.bg-placeholder {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  max-width: none;
+  width: initial;
+  animation: fadein 3s linear;
+}
+
+/* line 63, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.scotch-panel-wrapper, .scotch-panel-canvas {
+  min-height: 100vh;
+}
+
+/* line 67, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+#panel-right {
+  overflow: visible !important;
+}
+
+/* line 72, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.fOne iframe {
+  height: 250px;
+  width: 300px;
+}
+
+/* line 79, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.fTwo iframe {
+  height: 600px;
+  width: 300px;
+}
+
+/* line 86, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.fThree iframe {
+  height: 600px;
+  width: 160px;
+}
+
+/* line 93, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.fFour iframe {
+  height: 728px;
+  width: 90px;
+}
+
+/* line 101, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.one.fOne iframe {
+  left: 842px;
+  top: 1806px;
+}
+/* line 107, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.one.fTwo iframe {
+  left: 841px;
+  top: 255px;
+}
+/* line 113, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.one.fThree iframe {
+  left: 129px;
+  top: 877px;
+}
+/* line 119, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.one.fFour iframe {
+  left: 236px;
+  top: 100px;
+}
+
+/* line 128, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.two.fOne iframe {
+  left: 800px;
+  top: 366px;
+}
+/* line 134, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.two.fTwo iframe {
+  left: 800px;
+  top: 1611px;
+}
+/* line 140, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.two.fThree iframe {
+  left: 870px;
+  top: 635px;
+}
+/* line 146, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.two.fFour iframe {
+  left: 236px;
+  top: 57px;
+}
+
+/* line 155, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.three.fOne iframe {
+  left: 768px;
+  top: 576px;
+}
+/* line 161, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.three.fTwo iframe {
+  left: 768px;
+  top: 1438px;
+}
+/* line 167, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.three.fThree iframe {
+  left: 838px;
+  top: 2062px;
+}
+/* line 173, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.three.fFour iframe {
+  left: 236px;
+  top: 140px;
+}
+
+/* line 181, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.plain iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 5rem;
+}
+
+/* line 190, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+iframe {
+  z-index: 999999;
+  position: absolute;
+  border: none;
+  overflow: hidden;
+}
+
+/* line 197, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+#panel-left {
+  height: 100vh;
+  background: #333;
+}
+/* line 200, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+#panel-left h3.head {
+  height: 4rem;
+  line-height: 4rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.3rem;
+}
+/* line 207, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+#panel-left a {
+  background: #3A3A3A;
+  width: 100%;
+  display: block;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+/* line 213, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+#panel-left a:hover {
+  background: #444;
+}
+
+/* line 219, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.top-bar {
+  background: #333;
+  height: 4rem;
+  width: 100%;
+}
+/* line 223, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.top-bar .comment-btn, .top-bar .site-btn {
+  background: #444;
+}
+/* line 225, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.top-bar .comment-btn:hover, .top-bar .site-btn:hover {
+  background: #222;
+}
+/* line 229, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.top-bar a {
+  line-height: 4rem;
+  font-size: 0.9rem;
+  color: #fff;
+}
+/* line 233, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.top-bar a:hover, .top-bar a:focus {
+  color: #fff;
+}
+
+/* line 239, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.comments {
+  height: 100vh;
+  background: #FEFEFE;
+  padding: 3rem;
+  -webkit-box-shadow: -7px 0px 30px -8px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -7px 0px 30px -8px rgba(0, 0, 0, 0.1);
+  box-shadow: -7px 0px 30px -8px rgba(0, 0, 0, 0.1);
+}
+/* line 246, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.comments .com {
+  background: #fff;
+  min-height: 7rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 28px -9px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px 5px 28px -9px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px 5px 28px -9px rgba(0, 0, 0, 0.42);
+  border-left: 2px solid #ADADAD;
+  padding: 1rem 1.5rem;
+}
+/* line 255, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.comments .com.outdated {
+  opacity: 0.5;
+}
+/* line 258, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.comments .com p:first-of-type {
+  font-size: 0.75rem;
+}
+/* line 265, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.comments h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+}
+
+/* line 272, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.page-body {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 70rem;
+}
+/* line 276, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.page-body h2 {
+  margin-bottom: 0.5rem;
+}
+/* line 279, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.page-body p:first-of-type {
+  margin-bottom: 5rem;
+}
+
+/* line 284, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.logo-group {
+  margin-bottom: 3rem;
+}
+/* line 286, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.logo-group .client-logo {
+  height: 4rem;
+  width: auto;
+}
+
+/* line 292, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+#_email {
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  height: 3rem;
+  border-radius: 3px;
+  border: 1px solid #656565;
+  padding: 0 1rem;
+}
+
+/* line 302, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.auth-submit {
+  background: #656565;
+  border: none;
+  border-radius: 3px;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+/* line 310, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.ad-panel {
+  background: #545454;
+  border-radius: 3px;
+  margin: 1rem 0;
+  padding: 2.5rem 0;
+}
+/* line 315, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.ad-panel p:first-of-type {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+/* line 319, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.ad-panel p {
+  color: #fff;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+/* line 333, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+   * Remove default margin.
+   */
+/* line 344, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+     ========================================================================== */
+/**
+   * Correct `block` display not defined for any HTML5 element in IE 8/9.
+   * Correct `block` display not defined for `details` or `summary` in IE 10/11
+   * and Firefox.
+   * Correct `block` display not defined for `main` in IE 11.
+   */
+/* line 355, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+   * 1. Correct `inline-block` display not defined in IE 8/9.
+   * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+   */
+/* line 374, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+   * Prevent modern browsers from displaying `audio` without controls.
+   * Remove excess height in iOS 5 devices.
+   */
+/* line 387, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+   * Address `[hidden]` styling not present in IE 8/9/10.
+   * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+   */
+/* line 395, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+     ========================================================================== */
+/**
+   * Remove the gray background color from active links in IE 10.
+   */
+/* line 404, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+   * Improve readability of focused elements when they are also in an
+   * active/hover state.
+   */
+/* line 411, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+   */
+/* line 420, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+   * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+   */
+/* line 426, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+   * Address styling not present in Safari and Chrome.
+   */
+/* line 433, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+   * Address variable `h1` font-size and margin within `section` and `article`
+   * contexts in Firefox 4+, Safari, and Chrome.
+   */
+/* line 440, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+   * Address styling not present in IE 8/9.
+   */
+/* line 447, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+   * Address inconsistent and variable font size in all browsers.
+   */
+/* line 454, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+   */
+/* line 460, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 467, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 470, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove border when inside `a` element in IE 8/9/10.
+   */
+/* line 478, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+img {
+  border: 0;
+}
+
+/**
+   * Correct overflow not hidden in IE 9/10/11.
+   */
+/* line 484, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * Address margin not present in IE 8/9 and Safari.
+   */
+/* line 492, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+   * Address differences between Firefox and other browsers.
+   */
+/* line 498, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+   * Contain overflow in all browsers.
+   */
+/* line 505, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+   * Address odd `em`-unit font size rendering in all browsers.
+   */
+/* line 511, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+     ========================================================================== */
+/**
+   * Known limitation: by default, Chrome and Safari on OS X allow very limited
+   * styling of `select`, unless a `border` property is set.
+   */
+/**
+   * 1. Correct color not being inherited.
+   *    Known issue: affects color of disabled elements.
+   * 2. Correct font properties not being inherited.
+   * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+   */
+/* line 530, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+   * Address `overflow` set to `hidden` in IE 8/9/10/11.
+   */
+/* line 545, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+button {
+  overflow: visible;
+}
+
+/**
+   * Address inconsistent `text-transform` inheritance for `button` and `select`.
+   * All other form control elements do not inherit `text-transform` values.
+   * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+   * Correct `select` style inheritance in Firefox.
+   */
+/* line 554, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+   * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+   *    and `video` controls.
+   * 2. Correct inability to style clickable `input` types in iOS.
+   * 3. Improve usability and consistency of cursor style between image-type
+   *    `input` and others.
+   */
+/* line 565, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+   * Re-set default cursor for disabled elements.
+   */
+/* line 577, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+   * Remove inner padding and border in Firefox 4+.
+   */
+/* line 584, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+   * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+   * the UA stylesheet.
+   */
+/* line 593, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+input {
+  line-height: normal;
+}
+
+/**
+   * It's recommended that you don't attempt to style these elements.
+   * Firefox's implementation doesn't respect box-sizing, padding, or width.
+   *
+   * 1. Address box sizing set to `content-box` in IE 8/9/10.
+   * 2. Remove excess padding in IE 8/9/10.
+   */
+/* line 603, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+   * `font-size` values of the `input`, it causes the cursor style of the
+   * decrement button to change from `default` to `text`.
+   */
+/* line 615, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+   * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+   */
+/* line 623, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+   * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+   * Safari (but not Chrome) clips the cancel button when the search input has
+   * padding (and `textfield` appearance).
+   */
+/* line 634, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * Define consistent border, margin, and padding.
+   * [NOTE] We don't enable this ruleset in Foundation, because we want the <fieldset> element to have plain styling.
+   */
+/* fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+  } */
+/**
+   * 1. Correct `color` not being inherited in IE 8/9/10/11.
+   * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+   */
+/* line 651, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Remove default vertical scrollbar in IE 8/9/10/11.
+   */
+/* line 660, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * Don't inherit the `font-weight` (applied by a rule above).
+   * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+   */
+/* line 667, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+     ========================================================================== */
+/**
+   * Remove most spacing between table cells.
+   */
+/* line 675, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 679, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 683, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.foundation-mq {
+  font-family: "small=0em&medium=40em&large=64em&xlarge=75em&xxlarge=90em";
+}
+
+/* line 686, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+/* line 690, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* line 695, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #0a0a0a;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 706, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 713, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+  border-radius: 0;
+}
+
+/* line 718, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+select {
+  width: 100%;
+  border-radius: 0;
+}
+
+/* line 722, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object,
+.mqa-display img,
+.mqa-display embed,
+.mqa-display object {
+  max-width: none !important;
+}
+
+/* line 733, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  line-height: 1;
+}
+
+/* line 742, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.is-visible {
+  display: block !important;
+}
+
+/* line 745, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.is-hidden {
+  display: none !important;
+}
+
+/* line 748, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 751, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row::before, .row::after {
+  content: ' ';
+  display: table;
+}
+
+/* line 754, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row::after {
+  clear: both;
+}
+
+/* line 756, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row.collapse > .column, .row.collapse > .columns {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 759, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row .row {
+  margin-left: -0.625rem;
+  margin-right: -0.625rem;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 763, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .row .row {
+    margin-left: -0.9375rem;
+    margin-right: -0.9375rem;
+  }
+}
+/* line 766, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row .row.collapse {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 769, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row.expanded {
+  max-width: none;
+}
+
+/* line 771, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row.expanded .row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 775, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.column, .columns {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  width: 100%;
+  float: left;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 781, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .column, .columns {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+}
+/* line 784, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+  float: right;
+}
+
+/* line 786, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.column.end:last-child:last-child, .end.columns:last-child:last-child {
+  float: left;
+}
+
+/* line 789, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.column.row.row, .row.row.columns {
+  float: none;
+}
+
+/* line 791, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.row .column.row.row, .row .row.row.columns {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 797, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-1 {
+  width: 8.33333%;
+}
+
+/* line 800, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-1 {
+  position: relative;
+  left: 8.33333%;
+}
+
+/* line 804, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-1 {
+  position: relative;
+  left: -8.33333%;
+}
+
+/* line 808, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-0 {
+  margin-left: 0%;
+}
+
+/* line 811, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-2 {
+  width: 16.66667%;
+}
+
+/* line 814, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-2 {
+  position: relative;
+  left: 16.66667%;
+}
+
+/* line 818, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-2 {
+  position: relative;
+  left: -16.66667%;
+}
+
+/* line 822, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-1 {
+  margin-left: 8.33333%;
+}
+
+/* line 825, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-3 {
+  width: 25%;
+}
+
+/* line 828, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-3 {
+  position: relative;
+  left: 25%;
+}
+
+/* line 832, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-3 {
+  position: relative;
+  left: -25%;
+}
+
+/* line 836, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-2 {
+  margin-left: 16.66667%;
+}
+
+/* line 839, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-4 {
+  width: 33.33333%;
+}
+
+/* line 842, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-4 {
+  position: relative;
+  left: 33.33333%;
+}
+
+/* line 846, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-4 {
+  position: relative;
+  left: -33.33333%;
+}
+
+/* line 850, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-3 {
+  margin-left: 25%;
+}
+
+/* line 853, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-5 {
+  width: 41.66667%;
+}
+
+/* line 856, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-5 {
+  position: relative;
+  left: 41.66667%;
+}
+
+/* line 860, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-5 {
+  position: relative;
+  left: -41.66667%;
+}
+
+/* line 864, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-4 {
+  margin-left: 33.33333%;
+}
+
+/* line 867, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-6 {
+  width: 50%;
+}
+
+/* line 870, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-6 {
+  position: relative;
+  left: 50%;
+}
+
+/* line 874, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-6 {
+  position: relative;
+  left: -50%;
+}
+
+/* line 878, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-5 {
+  margin-left: 41.66667%;
+}
+
+/* line 881, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-7 {
+  width: 58.33333%;
+}
+
+/* line 884, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-7 {
+  position: relative;
+  left: 58.33333%;
+}
+
+/* line 888, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-7 {
+  position: relative;
+  left: -58.33333%;
+}
+
+/* line 892, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-6 {
+  margin-left: 50%;
+}
+
+/* line 895, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-8 {
+  width: 66.66667%;
+}
+
+/* line 898, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-8 {
+  position: relative;
+  left: 66.66667%;
+}
+
+/* line 902, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-8 {
+  position: relative;
+  left: -66.66667%;
+}
+
+/* line 906, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-7 {
+  margin-left: 58.33333%;
+}
+
+/* line 909, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-9 {
+  width: 75%;
+}
+
+/* line 912, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-9 {
+  position: relative;
+  left: 75%;
+}
+
+/* line 916, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-9 {
+  position: relative;
+  left: -75%;
+}
+
+/* line 920, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-8 {
+  margin-left: 66.66667%;
+}
+
+/* line 923, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-10 {
+  width: 83.33333%;
+}
+
+/* line 926, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-10 {
+  position: relative;
+  left: 83.33333%;
+}
+
+/* line 930, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-10 {
+  position: relative;
+  left: -83.33333%;
+}
+
+/* line 934, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-9 {
+  margin-left: 75%;
+}
+
+/* line 937, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-11 {
+  width: 91.66667%;
+}
+
+/* line 940, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-push-11 {
+  position: relative;
+  left: 91.66667%;
+}
+
+/* line 944, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-pull-11 {
+  position: relative;
+  left: -91.66667%;
+}
+
+/* line 948, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-10 {
+  margin-left: 83.33333%;
+}
+
+/* line 951, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-12 {
+  width: 100%;
+}
+
+/* line 954, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-offset-11 {
+  margin-left: 91.66667%;
+}
+
+/* line 957, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-1 > .column, .small-up-1 > .columns {
+  width: 100%;
+  float: left;
+}
+
+/* line 960, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-1 > .column:nth-of-type(1n), .small-up-1 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 962, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-1 > .column:nth-of-type(1n+1), .small-up-1 > .columns:nth-of-type(1n+1) {
+  clear: both;
+}
+
+/* line 964, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-1 > .column:last-child, .small-up-1 > .columns:last-child {
+  float: left;
+}
+
+/* line 967, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-2 > .column, .small-up-2 > .columns {
+  width: 50%;
+  float: left;
+}
+
+/* line 970, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-2 > .column:nth-of-type(1n), .small-up-2 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 972, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-2 > .column:nth-of-type(2n+1), .small-up-2 > .columns:nth-of-type(2n+1) {
+  clear: both;
+}
+
+/* line 974, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-2 > .column:last-child, .small-up-2 > .columns:last-child {
+  float: left;
+}
+
+/* line 977, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-3 > .column, .small-up-3 > .columns {
+  width: 33.33333%;
+  float: left;
+}
+
+/* line 980, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-3 > .column:nth-of-type(1n), .small-up-3 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 982, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-3 > .column:nth-of-type(3n+1), .small-up-3 > .columns:nth-of-type(3n+1) {
+  clear: both;
+}
+
+/* line 984, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-3 > .column:last-child, .small-up-3 > .columns:last-child {
+  float: left;
+}
+
+/* line 987, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-4 > .column, .small-up-4 > .columns {
+  width: 25%;
+  float: left;
+}
+
+/* line 990, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-4 > .column:nth-of-type(1n), .small-up-4 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 992, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-4 > .column:nth-of-type(4n+1), .small-up-4 > .columns:nth-of-type(4n+1) {
+  clear: both;
+}
+
+/* line 994, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-4 > .column:last-child, .small-up-4 > .columns:last-child {
+  float: left;
+}
+
+/* line 997, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-5 > .column, .small-up-5 > .columns {
+  width: 20%;
+  float: left;
+}
+
+/* line 1000, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-5 > .column:nth-of-type(1n), .small-up-5 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 1002, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-5 > .column:nth-of-type(5n+1), .small-up-5 > .columns:nth-of-type(5n+1) {
+  clear: both;
+}
+
+/* line 1004, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-5 > .column:last-child, .small-up-5 > .columns:last-child {
+  float: left;
+}
+
+/* line 1007, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-6 > .column, .small-up-6 > .columns {
+  width: 16.66667%;
+  float: left;
+}
+
+/* line 1010, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-6 > .column:nth-of-type(1n), .small-up-6 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 1012, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-6 > .column:nth-of-type(6n+1), .small-up-6 > .columns:nth-of-type(6n+1) {
+  clear: both;
+}
+
+/* line 1014, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-6 > .column:last-child, .small-up-6 > .columns:last-child {
+  float: left;
+}
+
+/* line 1017, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-7 > .column, .small-up-7 > .columns {
+  width: 14.28571%;
+  float: left;
+}
+
+/* line 1020, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-7 > .column:nth-of-type(1n), .small-up-7 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 1022, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-7 > .column:nth-of-type(7n+1), .small-up-7 > .columns:nth-of-type(7n+1) {
+  clear: both;
+}
+
+/* line 1024, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-7 > .column:last-child, .small-up-7 > .columns:last-child {
+  float: left;
+}
+
+/* line 1027, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-8 > .column, .small-up-8 > .columns {
+  width: 12.5%;
+  float: left;
+}
+
+/* line 1030, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-8 > .column:nth-of-type(1n), .small-up-8 > .columns:nth-of-type(1n) {
+  clear: none;
+}
+
+/* line 1032, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-8 > .column:nth-of-type(8n+1), .small-up-8 > .columns:nth-of-type(8n+1) {
+  clear: both;
+}
+
+/* line 1034, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-up-8 > .column:last-child, .small-up-8 > .columns:last-child {
+  float: left;
+}
+
+/* line 1037, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-collapse > .column, .small-collapse > .columns {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 1041, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-collapse .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 1045, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-uncollapse > .column, .small-uncollapse > .columns {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+/* line 1049, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-centered {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1054, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.small-uncentered,
+.small-push-0,
+.small-pull-0 {
+  position: static;
+  margin-left: 0;
+  margin-right: 0;
+  float: left;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 1063, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-1 {
+    width: 8.33333%;
+  }
+
+  /* line 1065, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-1 {
+    position: relative;
+    left: 8.33333%;
+  }
+
+  /* line 1068, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-1 {
+    position: relative;
+    left: -8.33333%;
+  }
+
+  /* line 1071, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 1073, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-2 {
+    width: 16.66667%;
+  }
+
+  /* line 1075, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-2 {
+    position: relative;
+    left: 16.66667%;
+  }
+
+  /* line 1078, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-2 {
+    position: relative;
+    left: -16.66667%;
+  }
+
+  /* line 1081, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  /* line 1083, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-3 {
+    width: 25%;
+  }
+
+  /* line 1085, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-3 {
+    position: relative;
+    left: 25%;
+  }
+
+  /* line 1088, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-3 {
+    position: relative;
+    left: -25%;
+  }
+
+  /* line 1091, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 1093, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-4 {
+    width: 33.33333%;
+  }
+
+  /* line 1095, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-4 {
+    position: relative;
+    left: 33.33333%;
+  }
+
+  /* line 1098, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-4 {
+    position: relative;
+    left: -33.33333%;
+  }
+
+  /* line 1101, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 1103, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-5 {
+    width: 41.66667%;
+  }
+
+  /* line 1105, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-5 {
+    position: relative;
+    left: 41.66667%;
+  }
+
+  /* line 1108, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-5 {
+    position: relative;
+    left: -41.66667%;
+  }
+
+  /* line 1111, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 1113, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-6 {
+    width: 50%;
+  }
+
+  /* line 1115, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-6 {
+    position: relative;
+    left: 50%;
+  }
+
+  /* line 1118, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-6 {
+    position: relative;
+    left: -50%;
+  }
+
+  /* line 1121, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 1123, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-7 {
+    width: 58.33333%;
+  }
+
+  /* line 1125, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-7 {
+    position: relative;
+    left: 58.33333%;
+  }
+
+  /* line 1128, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-7 {
+    position: relative;
+    left: -58.33333%;
+  }
+
+  /* line 1131, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 1133, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-8 {
+    width: 66.66667%;
+  }
+
+  /* line 1135, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-8 {
+    position: relative;
+    left: 66.66667%;
+  }
+
+  /* line 1138, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-8 {
+    position: relative;
+    left: -66.66667%;
+  }
+
+  /* line 1141, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 1143, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-9 {
+    width: 75%;
+  }
+
+  /* line 1145, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-9 {
+    position: relative;
+    left: 75%;
+  }
+
+  /* line 1148, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-9 {
+    position: relative;
+    left: -75%;
+  }
+
+  /* line 1151, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 1153, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-10 {
+    width: 83.33333%;
+  }
+
+  /* line 1155, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-10 {
+    position: relative;
+    left: 83.33333%;
+  }
+
+  /* line 1158, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-10 {
+    position: relative;
+    left: -83.33333%;
+  }
+
+  /* line 1161, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 1163, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-11 {
+    width: 91.66667%;
+  }
+
+  /* line 1165, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-push-11 {
+    position: relative;
+    left: 91.66667%;
+  }
+
+  /* line 1168, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-pull-11 {
+    position: relative;
+    left: -91.66667%;
+  }
+
+  /* line 1171, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 1173, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-12 {
+    width: 100%;
+  }
+
+  /* line 1175, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 1177, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-1 > .column, .medium-up-1 > .columns {
+    width: 100%;
+    float: left;
+  }
+
+  /* line 1180, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-1 > .column:nth-of-type(1n), .medium-up-1 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1182, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-1 > .column:nth-of-type(1n+1), .medium-up-1 > .columns:nth-of-type(1n+1) {
+    clear: both;
+  }
+
+  /* line 1184, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-1 > .column:last-child, .medium-up-1 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1186, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-2 > .column, .medium-up-2 > .columns {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 1189, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-2 > .column:nth-of-type(1n), .medium-up-2 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1191, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-2 > .column:nth-of-type(2n+1), .medium-up-2 > .columns:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  /* line 1193, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-2 > .column:last-child, .medium-up-2 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1195, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-3 > .column, .medium-up-3 > .columns {
+    width: 33.33333%;
+    float: left;
+  }
+
+  /* line 1198, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-3 > .column:nth-of-type(1n), .medium-up-3 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1200, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-3 > .column:nth-of-type(3n+1), .medium-up-3 > .columns:nth-of-type(3n+1) {
+    clear: both;
+  }
+
+  /* line 1202, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-3 > .column:last-child, .medium-up-3 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1204, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-4 > .column, .medium-up-4 > .columns {
+    width: 25%;
+    float: left;
+  }
+
+  /* line 1207, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-4 > .column:nth-of-type(1n), .medium-up-4 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1209, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-4 > .column:nth-of-type(4n+1), .medium-up-4 > .columns:nth-of-type(4n+1) {
+    clear: both;
+  }
+
+  /* line 1211, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-4 > .column:last-child, .medium-up-4 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1213, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-5 > .column, .medium-up-5 > .columns {
+    width: 20%;
+    float: left;
+  }
+
+  /* line 1216, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-5 > .column:nth-of-type(1n), .medium-up-5 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1218, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-5 > .column:nth-of-type(5n+1), .medium-up-5 > .columns:nth-of-type(5n+1) {
+    clear: both;
+  }
+
+  /* line 1220, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-5 > .column:last-child, .medium-up-5 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1222, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-6 > .column, .medium-up-6 > .columns {
+    width: 16.66667%;
+    float: left;
+  }
+
+  /* line 1225, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-6 > .column:nth-of-type(1n), .medium-up-6 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1227, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-6 > .column:nth-of-type(6n+1), .medium-up-6 > .columns:nth-of-type(6n+1) {
+    clear: both;
+  }
+
+  /* line 1229, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-6 > .column:last-child, .medium-up-6 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1231, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-7 > .column, .medium-up-7 > .columns {
+    width: 14.28571%;
+    float: left;
+  }
+
+  /* line 1234, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-7 > .column:nth-of-type(1n), .medium-up-7 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1236, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-7 > .column:nth-of-type(7n+1), .medium-up-7 > .columns:nth-of-type(7n+1) {
+    clear: both;
+  }
+
+  /* line 1238, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-7 > .column:last-child, .medium-up-7 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1240, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-8 > .column, .medium-up-8 > .columns {
+    width: 12.5%;
+    float: left;
+  }
+
+  /* line 1243, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-8 > .column:nth-of-type(1n), .medium-up-8 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1245, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-8 > .column:nth-of-type(8n+1), .medium-up-8 > .columns:nth-of-type(8n+1) {
+    clear: both;
+  }
+
+  /* line 1247, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-up-8 > .column:last-child, .medium-up-8 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1249, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-collapse > .column, .medium-collapse > .columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 1252, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-collapse .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 1255, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-uncollapse > .column, .medium-uncollapse > .columns {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+
+  /* line 1258, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 1262, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-uncentered,
+  .medium-push-0,
+  .medium-pull-0 {
+    position: static;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+  }
+}
+@media screen and (min-width: 64em) {
+  /* line 1271, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-1 {
+    width: 8.33333%;
+  }
+
+  /* line 1273, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-1 {
+    position: relative;
+    left: 8.33333%;
+  }
+
+  /* line 1276, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-1 {
+    position: relative;
+    left: -8.33333%;
+  }
+
+  /* line 1279, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 1281, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-2 {
+    width: 16.66667%;
+  }
+
+  /* line 1283, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-2 {
+    position: relative;
+    left: 16.66667%;
+  }
+
+  /* line 1286, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-2 {
+    position: relative;
+    left: -16.66667%;
+  }
+
+  /* line 1289, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  /* line 1291, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-3 {
+    width: 25%;
+  }
+
+  /* line 1293, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-3 {
+    position: relative;
+    left: 25%;
+  }
+
+  /* line 1296, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-3 {
+    position: relative;
+    left: -25%;
+  }
+
+  /* line 1299, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 1301, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-4 {
+    width: 33.33333%;
+  }
+
+  /* line 1303, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-4 {
+    position: relative;
+    left: 33.33333%;
+  }
+
+  /* line 1306, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-4 {
+    position: relative;
+    left: -33.33333%;
+  }
+
+  /* line 1309, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 1311, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-5 {
+    width: 41.66667%;
+  }
+
+  /* line 1313, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-5 {
+    position: relative;
+    left: 41.66667%;
+  }
+
+  /* line 1316, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-5 {
+    position: relative;
+    left: -41.66667%;
+  }
+
+  /* line 1319, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 1321, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-6 {
+    width: 50%;
+  }
+
+  /* line 1323, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-6 {
+    position: relative;
+    left: 50%;
+  }
+
+  /* line 1326, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-6 {
+    position: relative;
+    left: -50%;
+  }
+
+  /* line 1329, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 1331, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-7 {
+    width: 58.33333%;
+  }
+
+  /* line 1333, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-7 {
+    position: relative;
+    left: 58.33333%;
+  }
+
+  /* line 1336, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-7 {
+    position: relative;
+    left: -58.33333%;
+  }
+
+  /* line 1339, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 1341, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-8 {
+    width: 66.66667%;
+  }
+
+  /* line 1343, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-8 {
+    position: relative;
+    left: 66.66667%;
+  }
+
+  /* line 1346, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-8 {
+    position: relative;
+    left: -66.66667%;
+  }
+
+  /* line 1349, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 1351, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-9 {
+    width: 75%;
+  }
+
+  /* line 1353, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-9 {
+    position: relative;
+    left: 75%;
+  }
+
+  /* line 1356, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-9 {
+    position: relative;
+    left: -75%;
+  }
+
+  /* line 1359, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 1361, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-10 {
+    width: 83.33333%;
+  }
+
+  /* line 1363, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-10 {
+    position: relative;
+    left: 83.33333%;
+  }
+
+  /* line 1366, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-10 {
+    position: relative;
+    left: -83.33333%;
+  }
+
+  /* line 1369, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 1371, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-11 {
+    width: 91.66667%;
+  }
+
+  /* line 1373, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-push-11 {
+    position: relative;
+    left: 91.66667%;
+  }
+
+  /* line 1376, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-pull-11 {
+    position: relative;
+    left: -91.66667%;
+  }
+
+  /* line 1379, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 1381, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-12 {
+    width: 100%;
+  }
+
+  /* line 1383, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 1385, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-1 > .column, .large-up-1 > .columns {
+    width: 100%;
+    float: left;
+  }
+
+  /* line 1388, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-1 > .column:nth-of-type(1n), .large-up-1 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1390, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-1 > .column:nth-of-type(1n+1), .large-up-1 > .columns:nth-of-type(1n+1) {
+    clear: both;
+  }
+
+  /* line 1392, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-1 > .column:last-child, .large-up-1 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1394, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-2 > .column, .large-up-2 > .columns {
+    width: 50%;
+    float: left;
+  }
+
+  /* line 1397, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-2 > .column:nth-of-type(1n), .large-up-2 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1399, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-2 > .column:nth-of-type(2n+1), .large-up-2 > .columns:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  /* line 1401, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-2 > .column:last-child, .large-up-2 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1403, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-3 > .column, .large-up-3 > .columns {
+    width: 33.33333%;
+    float: left;
+  }
+
+  /* line 1406, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-3 > .column:nth-of-type(1n), .large-up-3 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1408, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-3 > .column:nth-of-type(3n+1), .large-up-3 > .columns:nth-of-type(3n+1) {
+    clear: both;
+  }
+
+  /* line 1410, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-3 > .column:last-child, .large-up-3 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1412, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-4 > .column, .large-up-4 > .columns {
+    width: 25%;
+    float: left;
+  }
+
+  /* line 1415, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-4 > .column:nth-of-type(1n), .large-up-4 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1417, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-4 > .column:nth-of-type(4n+1), .large-up-4 > .columns:nth-of-type(4n+1) {
+    clear: both;
+  }
+
+  /* line 1419, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-4 > .column:last-child, .large-up-4 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1421, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-5 > .column, .large-up-5 > .columns {
+    width: 20%;
+    float: left;
+  }
+
+  /* line 1424, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-5 > .column:nth-of-type(1n), .large-up-5 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1426, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-5 > .column:nth-of-type(5n+1), .large-up-5 > .columns:nth-of-type(5n+1) {
+    clear: both;
+  }
+
+  /* line 1428, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-5 > .column:last-child, .large-up-5 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1430, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-6 > .column, .large-up-6 > .columns {
+    width: 16.66667%;
+    float: left;
+  }
+
+  /* line 1433, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-6 > .column:nth-of-type(1n), .large-up-6 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1435, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-6 > .column:nth-of-type(6n+1), .large-up-6 > .columns:nth-of-type(6n+1) {
+    clear: both;
+  }
+
+  /* line 1437, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-6 > .column:last-child, .large-up-6 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1439, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-7 > .column, .large-up-7 > .columns {
+    width: 14.28571%;
+    float: left;
+  }
+
+  /* line 1442, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-7 > .column:nth-of-type(1n), .large-up-7 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1444, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-7 > .column:nth-of-type(7n+1), .large-up-7 > .columns:nth-of-type(7n+1) {
+    clear: both;
+  }
+
+  /* line 1446, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-7 > .column:last-child, .large-up-7 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1448, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-8 > .column, .large-up-8 > .columns {
+    width: 12.5%;
+    float: left;
+  }
+
+  /* line 1451, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-8 > .column:nth-of-type(1n), .large-up-8 > .columns:nth-of-type(1n) {
+    clear: none;
+  }
+
+  /* line 1453, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-8 > .column:nth-of-type(8n+1), .large-up-8 > .columns:nth-of-type(8n+1) {
+    clear: both;
+  }
+
+  /* line 1455, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-up-8 > .column:last-child, .large-up-8 > .columns:last-child {
+    float: left;
+  }
+
+  /* line 1457, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-collapse > .column, .large-collapse > .columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 1460, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-collapse .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 1463, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-uncollapse > .column, .large-uncollapse > .columns {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+
+  /* line 1466, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 1470, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-uncentered,
+  .large-push-0,
+  .large-pull-0 {
+    position: static;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+  }
+}
+/* line 1478, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1500, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+p {
+  font-size: inherit;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 1506, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+em,
+i {
+  font-style: italic;
+  line-height: inherit;
+}
+
+/* line 1511, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+strong,
+b {
+  font-weight: bold;
+  line-height: inherit;
+}
+
+/* line 1516, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+small {
+  font-size: 80%;
+  line-height: inherit;
+}
+
+/* line 1520, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: inherit;
+  text-rendering: optimizeLegibility;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+/* line 1534, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  color: #cacaca;
+  line-height: 0;
+}
+
+/* line 1543, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+h1 {
+  font-size: 1.5rem;
+}
+
+/* line 1546, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+h2 {
+  font-size: 1.25rem;
+}
+
+/* line 1549, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+h3 {
+  font-size: 1.1875rem;
+}
+
+/* line 1552, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+h4 {
+  font-size: 1.125rem;
+}
+
+/* line 1555, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+h5 {
+  font-size: 1.0625rem;
+}
+
+/* line 1558, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+h6 {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 1562, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h1 {
+    font-size: 3rem;
+  }
+
+  /* line 1564, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  /* line 1566, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h3 {
+    font-size: 1.9375rem;
+  }
+
+  /* line 1568, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h4 {
+    font-size: 1.5625rem;
+  }
+
+  /* line 1570, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  /* line 1572, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h6 {
+    font-size: 1rem;
+  }
+}
+/* line 1575, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+a {
+  color: #2199e8;
+  text-decoration: none;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+/* line 1580, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+a:hover, a:focus {
+  color: #1585cf;
+}
+
+/* line 1582, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+a img {
+  border: 0;
+}
+
+/* line 1585, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+hr {
+  max-width: 75rem;
+  height: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid #cacaca;
+  border-left: 0;
+  margin: 1.25rem auto;
+  clear: both;
+}
+
+/* line 1595, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+ul,
+ol,
+dl {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  list-style-position: outside;
+}
+
+/* line 1602, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+li {
+  font-size: inherit;
+}
+
+/* line 1605, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+ul {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+}
+
+/* line 1609, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+ol {
+  margin-left: 1.25rem;
+}
+
+/* line 1612, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+ul ul, ol ul, ul ol, ol ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+/* line 1616, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+dl {
+  margin-bottom: 1rem;
+}
+
+/* line 1618, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+dl dt {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+/* line 1622, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+blockquote {
+  margin: 0 0 1rem;
+  padding: 0.5625rem 1.25rem 0 1.1875rem;
+  border-left: 1px solid #cacaca;
+}
+
+/* line 1626, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+blockquote, blockquote p {
+  line-height: 1.6;
+  color: #8a8a8a;
+}
+
+/* line 1630, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+cite {
+  display: block;
+  font-size: 0.8125rem;
+  color: #8a8a8a;
+}
+
+/* line 1634, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+cite:before {
+  content: '\2014 \0020';
+}
+
+/* line 1637, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+abbr {
+  color: #0a0a0a;
+  cursor: help;
+  border-bottom: 1px dotted #0a0a0a;
+}
+
+/* line 1642, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-weight: normal;
+  color: #0a0a0a;
+  background-color: #e6e6e6;
+  border: 1px solid #cacaca;
+  padding: 0.125rem 0.3125rem 0.0625rem;
+}
+
+/* line 1650, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+kbd {
+  padding: 0.125rem 0.25rem 0;
+  margin: 0;
+  background-color: #e6e6e6;
+  color: #0a0a0a;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+/* line 1657, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.subheader {
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #8a8a8a;
+}
+
+/* line 1664, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.lead {
+  font-size: 125%;
+  line-height: 1.6;
+}
+
+/* line 1668, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.stat {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+/* line 1671, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+p + .stat {
+  margin-top: -1rem;
+}
+
+/* line 1674, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.no-bullet {
+  margin-left: 0;
+  list-style: none;
+}
+
+/* line 1678, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 1681, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 1684, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 1687, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.text-justify {
+  text-align: justify;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 1691, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-text-left {
+    text-align: left;
+  }
+
+  /* line 1693, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-text-right {
+    text-align: right;
+  }
+
+  /* line 1695, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-text-center {
+    text-align: center;
+  }
+
+  /* line 1697, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .medium-text-justify {
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 64em) {
+  /* line 1701, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-text-left {
+    text-align: left;
+  }
+
+  /* line 1703, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-text-right {
+    text-align: right;
+  }
+
+  /* line 1705, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-text-center {
+    text-align: center;
+  }
+
+  /* line 1707, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .large-text-justify {
+    text-align: justify;
+  }
+}
+/* line 1710, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.show-for-print {
+  display: none !important;
+}
+
+@media print {
+  /* line 1714, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 1719, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .show-for-print {
+    display: block !important;
+  }
+
+  /* line 1721, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .hide-for-print {
+    display: none !important;
+  }
+
+  /* line 1723, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  table.show-for-print {
+    display: table !important;
+  }
+
+  /* line 1725, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  thead.show-for-print {
+    display: table-header-group !important;
+  }
+
+  /* line 1727, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  tbody.show-for-print {
+    display: table-row-group !important;
+  }
+
+  /* line 1729, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  tr.show-for-print {
+    display: table-row !important;
+  }
+
+  /* line 1731, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  td.show-for-print {
+    display: table-cell !important;
+  }
+
+  /* line 1733, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  th.show-for-print {
+    display: table-cell !important;
+  }
+
+  /* line 1735, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 1738, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 1740, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .ir a:after,
+  a[href^='javascript:']:after,
+  a[href^='#']:after {
+    content: '';
+  }
+
+  /* line 1744, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 1746, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 1750, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 1752, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 1755, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+  /* line 1759, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 1764, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* line 1768, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button {
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding: 0.85em 1em;
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  background-color: #2199e8;
+  color: #fff;
+}
+
+/* line 1783, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+[data-whatinput='mouse'] .button {
+  outline: 0;
+}
+
+/* line 1785, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button:hover, .button:focus {
+  background-color: #1583cc;
+  color: #fff;
+}
+
+/* line 1788, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.tiny {
+  font-size: 0.6rem;
+}
+
+/* line 1790, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.small {
+  font-size: 0.75rem;
+}
+
+/* line 1792, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.large {
+  font-size: 1.25rem;
+}
+
+/* line 1794, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.expanded {
+  display: block;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 1799, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.primary {
+  background-color: #2199e8;
+  color: #fff;
+}
+
+/* line 1802, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.primary:hover, .button.primary:focus {
+  background-color: #147cc0;
+  color: #fff;
+}
+
+/* line 1805, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.secondary {
+  background-color: #777;
+  color: #fff;
+}
+
+/* line 1808, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.secondary:hover, .button.secondary:focus {
+  background-color: #5f5f5f;
+  color: #fff;
+}
+
+/* line 1811, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.success {
+  background-color: #3adb76;
+  color: #fff;
+}
+
+/* line 1814, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.success:hover, .button.success:focus {
+  background-color: #22bb5b;
+  color: #fff;
+}
+
+/* line 1817, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.alert {
+  background-color: #ec5840;
+  color: #fff;
+}
+
+/* line 1820, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.alert:hover, .button.alert:focus {
+  background-color: #da3116;
+  color: #fff;
+}
+
+/* line 1823, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.warning {
+  background-color: #ffae00;
+  color: #fff;
+}
+
+/* line 1826, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.warning:hover, .button.warning:focus {
+  background-color: #cc8b00;
+  color: #fff;
+}
+
+/* line 1829, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow {
+  border: 1px solid #2199e8;
+  color: #2199e8;
+}
+
+/* line 1832, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow, .button.hollow:hover, .button.hollow:focus {
+  background-color: transparent;
+}
+
+/* line 1834, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow:hover, .button.hollow:focus {
+  border-color: #0c4d78;
+  color: #0c4d78;
+}
+
+/* line 1837, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.primary {
+  border: 1px solid #2199e8;
+  color: #2199e8;
+}
+
+/* line 1840, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.primary:hover, .button.hollow.primary:focus {
+  border-color: #0c4d78;
+  color: #0c4d78;
+}
+
+/* line 1843, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.secondary {
+  border: 1px solid #777;
+  color: #777;
+}
+
+/* line 1846, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.secondary:hover, .button.hollow.secondary:focus {
+  border-color: #3c3c3c;
+  color: #3c3c3c;
+}
+
+/* line 1849, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.success {
+  border: 1px solid #3adb76;
+  color: #3adb76;
+}
+
+/* line 1852, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.success:hover, .button.hollow.success:focus {
+  border-color: #157539;
+  color: #157539;
+}
+
+/* line 1855, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.alert {
+  border: 1px solid #ec5840;
+  color: #ec5840;
+}
+
+/* line 1858, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.alert:hover, .button.hollow.alert:focus {
+  border-color: #881f0e;
+  color: #881f0e;
+}
+
+/* line 1861, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.warning {
+  border: 1px solid #ffae00;
+  color: #ffae00;
+}
+
+/* line 1864, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.hollow.warning:hover, .button.hollow.warning:focus {
+  border-color: #805700;
+  color: #805700;
+}
+
+/* line 1867, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.disabled, .button[disabled] {
+  opacity: 0.25;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* line 1871, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.dropdown::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: inset 0.4em;
+  border-color: #fefefe transparent transparent;
+  border-top-style: solid;
+  border-bottom-width: 0;
+  position: relative;
+  top: 0.4em;
+  float: right;
+  margin-left: 1em;
+  display: inline-block;
+}
+
+/* line 1885, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.button.arrow-only::after {
+  margin-left: 0;
+  float: none;
+  top: 0.2em;
+}
+
+/* line 1890, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+body.is-reveal-open {
+  overflow: hidden;
+}
+
+/* line 1893, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.reveal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1005;
+  background-color: rgba(10, 10, 10, 0.45);
+  overflow-y: scroll;
+}
+
+/* line 1904, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.reveal {
+  display: none;
+  z-index: 1006;
+  padding: 1rem;
+  border: 1px solid #cacaca;
+  margin: 6.25rem auto 0;
+  background-color: #fefefe;
+  border-radius: 0;
+  position: absolute;
+  overflow-y: auto;
+}
+
+/* line 1914, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+[data-whatinput='mouse'] .reveal {
+  outline: 0;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 1917, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .reveal {
+    min-height: 0;
+  }
+}
+/* line 1919, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.reveal .column, .reveal .columns,
+.reveal .columns {
+  min-width: 0;
+}
+
+/* line 1922, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.reveal > :last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 1925, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .reveal {
+    width: 600px;
+    max-width: 75rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  /* line 1929, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .reveal .reveal {
+    left: auto;
+    right: auto;
+    margin: 0 auto;
+  }
+}
+/* line 1933, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.reveal.collapse {
+  padding: 0;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 1936, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .reveal.tiny {
+    width: 30%;
+    max-width: 75rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  /* line 1940, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .reveal.small {
+    width: 50%;
+    max-width: 75rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  /* line 1944, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+  .reveal.large {
+    width: 90%;
+    max-width: 75rem;
+  }
+}
+/* line 1947, /Users/cjshort/spiceviewer/app/assets/stylesheets/application.css.scss */
+.reveal.full {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  max-width: none;
+  margin-left: 0;
+  border: 0;
+}
+
+/*# sourceMappingURL=foundation.css.map */
