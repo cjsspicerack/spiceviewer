@@ -11,7 +11,7 @@
 				<div class="small-12 medium-3 columns">
 					<%= link_to viewers_preview_path(id: advert, site: "one") do %>
 						<div class="ad-panel">
-							<p><%= advert.format %></p>
+							<p><%= advert.name if advert.name.present? %> (<%= advert.format %>)</p>
 							<p>Click to View</p>
 						</div>
 					<% end %>

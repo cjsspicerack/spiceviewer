@@ -1,4 +1,4 @@
-
+<header>
 	<div class="row top-bar">
 		<a href="#" class="toggle-site">
 			<div class="medium-2 columns text-center site-btn">
@@ -20,6 +20,7 @@
 			<!-- <a href="#" class="toggle-panel">Comments (1)</a> -->
 		</div>
 	</div>
+</header>
 
 	<div id="panel-left">
 		<h3 class="head">Select Website</h3>
@@ -39,7 +40,7 @@
 </div>
 
 
-	<div id="panel-right">
+<!-- 	<div id="panel-right">
 		<div class="comments">
 		    <h3>Comments (1)</h3>
 		    <div class="com">
@@ -47,15 +48,15 @@
 		    	<p>This advert looks really great, good job!</p>
 		    </div>
 		</div>
-	</div>
+	</div> -->
 
 <script type="text/javascript">
 
 var ready;
 ready = function() {
 
-	$('#panel-left').scotchPanel({
-	    containerSelector: 'body', // As a jQuery Selector
+	var panelLeft = $('#panel-left').scotchPanel({
+	    containerSelector: 'body', // Make this appear on the entire screen
 	    direction: 'left', // Make it toggle in from the left
 	    duration: 300, // Speed in ms how fast you want it to be
 	    transition: 'ease', // CSS3 transition type: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(P1x,P1y,P2x,P2y)
@@ -64,18 +65,12 @@ ready = function() {
 	    enableEscapeKey: true // Clicking Esc will close the panel
 	});
 
-	$('#panel-right').scotchPanel({
-	    containerSelector: 'body', // As a jQuery Selector
-	    direction: 'right', // Make it toggle in from the left
-	    duration: 300, // Speed in ms how fast you want it to be
-	    transition: 'ease', // CSS3 transition type: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(P1x,P1y,P2x,P2y)
-	    clickSelector: '.toggle-panel', // Enables toggling when clicking elements of this class
-	    distanceX: '35%', // Size fo the toggle
-	    enableEscapeKey: true // Clicking Esc will close the panel
-	});
+	$('.toggle-site').click(function(){
+		panelLeft.open();
+	})
 
     $('html, body').animate({
-        scrollTop: $("#advert").offset().top
+        scrollTop: $("#advert").offset().top - 100
     }, 100);
 
 

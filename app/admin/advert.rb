@@ -4,7 +4,7 @@ menu priority: 3
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
-permit_params :campaign, :campaign_id, :format, :files
+permit_params :campaign, :campaign_id, :format, :files, :name
 #
 # or
 #
@@ -25,6 +25,7 @@ end
 
 form(:html => { :multipart => true }) do |f|
   f.inputs do
+  	f.input :name
 	f.input :campaign
     f.input :format, as: :select, collection: ['300x250', '300x600', '160x600' ,'728x90']
     # f.file_field :files, multiple: true, name: "advert[files]"
